@@ -1,0 +1,53 @@
+{
+  "name": "mango-h5",
+  "version": "1.0.0",
+  "author": "xcj",
+  "description": "mango-h5 webpack+react开发环境",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "webpack --config webpack.config.js --colors --profile --display-modules",
+    "prod": "webpack --config webpack.config.prod.js --colors --profile --display-modules -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.coding.net/xiaox/mango-h5.git"
+  },
+  "dependencies": {
+    "amazeui-touch": "^1.0.0-beta.4",
+    "history": "^1.13.0",
+    "immutable": "^3.8.1",
+    "react": "^15.1.0",
+    "react-addons-css-transition-group": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-redux": "^4.0.0",
+    "react-router": "1.0.0-rc4",
+    "redux": "^3.0.4",
+    "redux-thunk": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.21.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "node-sass": "^3.8.0",
+    "react-hot-loader": "^1.3.0",
+    "redux-devtools": "^3.0.1",
+    "redux-devtools-dock-monitor": "^1.0.1",
+    "redux-devtools-log-monitor": "^1.0.2",
+    "sass-loader": "^3.2.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

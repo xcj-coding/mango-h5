@@ -4,10 +4,10 @@ var ETP = require('extract-text-webpack-plugin');
 var webpack = require('webpack');
 
 var ROOT_PATH = path.resolve(__dirname);
-var APP_PATH = path.resolve(ROOT_PATH,'./lib/');
-var BUILD_PATH = path.resolve(ROOT_PATH,'./build');
+var APP_PATH = path.resolve(ROOT_PATH,'lib');
+var BUILD_PATH = path.resolve(ROOT_PATH,'build');
 
-var APP_IN = path.resolve(APP_PATH,'app');
+var APP_IN = path.resolve(APP_PATH,'app.js');
 
 
 var ETPCSS = new ETP('[name].[chunkhash:8].css');
@@ -16,12 +16,13 @@ var ETPCSS = new ETP('[name].[chunkhash:8].css');
 
 module.exports = {
 	entry: {
-		APP_IN
+		app: [APP_IN]
 	},
 	output: {
-		path: __dirname,
-    	// publicPath: BUILD_PATH,
+		path: BUILD_PATH,
     	filename: 'bundle.js',
+    	// path: __dirname,
+    	publicPath: ROOT_PATH,
 		// filename: '[name].[chunkhash:8].bundle.js',
 		// chunkFilename: "[id].[chunkhash:8].bundle.js"
 	},
@@ -93,6 +94,7 @@ module.exports = {
 		]
 	},
 	plugins: [
+		new webpack.HotModuleReplacementPlugin(),
 		// new webpack.optimize.CommonsChunkPlugin({
 		// 	name: ['jquery','react'],
 		// 	minChunks: Infinity

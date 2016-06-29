@@ -6,6 +6,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "build": "webpack",
     "start": "node server.js",
     "dev": "webpack --config webpack.config.js --colors --profile --display-modules",
     "prod": "webpack --config webpack.config.prod.js --colors --profile --display-modules -p"

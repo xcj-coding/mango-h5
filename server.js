@@ -13,5 +13,5 @@ new WebpackDevServer(webpack(config),{
   if(err){
     console.log(err);
   }
-  console.log('*******************************');
+  console.log('系统启动，监听8888端口中...');
 });

@@ -1,31 +1,35 @@
 var path = require('path');
+var webpack = require('webpack');
 var HWP = require('html-webpack-plugin');
 var ETP = require('extract-text-webpack-plugin');
-var webpack = require('webpack');
 
 var ROOT_PATH = path.resolve(__dirname);
 var APP_PATH = path.resolve(ROOT_PATH,'lib');
+var APP_IN = path.resolve(APP_PATH,'app.js');
+var CSS_PATH = path.resolve(ROOT_PATH,'css/css.css');
 var BUILD_PATH = path.resolve(ROOT_PATH,'build');
 
-var APP_IN = path.resolve(APP_PATH,'app.js');
 
-
-var ETPCSS = new ETP('[name].[chunkhash:8].css');
+var ETPCSS = new ETP('[name].css?v=[chunkhash:8]');
 // var ETPSASS = new ETP('stylesheets/scss.[chunkhash:8].css');
 // var ETPLESS = new ETP('stylesheets/less.[chunkhash:8].css');
 
+var commonsPlugins = new webpack.optimize.CommonsChunkPlugin('module.js?v=[hash:8]');
+
 module.exports = {
 	entry: {
-		app: [APP_IN]
+		app: [APP_IN],
+		css: [CSS_PATH]
 	},
 	output: {
 		path: BUILD_PATH,
-    	filename: 'bundle.js',
-    	// path: __dirname,
-    	publicPath: ROOT_PATH,
-		// filename: '[name].[chunkhash:8].bundle.js',
+    	// publicPath: 'http://mycdn.com/',
+    	filename: '[name].js?v=[chunkhash:8]',
+    	// filename: '[name].bundle.js?v=[chunkhash:8]',
 		// chunkFilename: "[id].[chunkhash:8].bundle.js"
 	},
+	devtool: 'inline-source-map',
+	debug: true,
 	resolve: {
 		alias: {
       		'redux-devtools': path.resolve(__dirname, '..', '..', 'lib'),
@@ -42,12 +46,19 @@ module.exports = {
 		progress: true
 	},
 	module: {
+		preLoaders: [
+			{
+				test: /\.(jsx|js)$/,
+				exclude: /node_modules/,
+				loader: 'eslint-loader'
+			}
+		],
 		loaders: [
 			{
 				test: /\.css$/,
 				loader: ETPCSS.extract('style','css'),
 				exclude: /node_modules/,
-				include: APP_PATH
+				include: CSS_PATH
 			},
 			// {
 			// 	test: /\.scss$/,
@@ -95,83 +106,26 @@ module.exports = {
 	},
 	plugins: [
 		new webpack.HotModuleReplacementPlugin(),
-		// new webpack.optimize.CommonsChunkPlugin({
-		// 	name: ['jquery','react'],
-		// 	minChunks: Infinity
-		// }),
+		commonsPlugins,
+		new webpack.DefinePlugin({
+			"process.env": {
+				NODE_ENV: JSON.stringify("development")
+			}
+		}),
 		// new webpack.optimize.UglifyJsPlugin({
-		// 	compress: {
-		// 		warnings: false
-		// 	}
+		// compress: {
+		// 	warnings: false,
+		// },
+		// output: {
+		// 	comments: false,
+		// }
 		// }),
 		// new HWP({
 		// 	title: 'xxx app'
 		// }),
+		// new webpack.NoErrorsPlugin(),
 		// ETPSASS,
 		// ETPLESS,
 		ETPCSS
 	]
 };
-
-
-
-
-
-
-/*
-module.exports = {
-	// entry: ['./src/app1.js','./src/app2.js'],
-	// entry: {
-	// 	page1: "./src/page1",
-	// 	page2: ['./src/app1.js','./src/app2.js']
-	// },
-	entry: [
-		'webpack-dev-server/client?http://localhost:3333',
-		'webpack/hot/only-dev-server',
-		'./src/index'
-	],
-	output: {
-    	// publicPath: '/lib/build/',
-		path: path.join(__dirname,'bin'),
-		filename: 'bundle.js'
-		// filename: '[name].bundle.js',
-		// chunkFilename: "[id].bundle.js"
-	},
-	resolve: {
-		extensions: ['','.js','.jsx']
-	},
-	module: {
-		loaders:[{
-			test: /\.js$/,
-			loaders: ['babel'],
-			// loaders: ['react-hot','babel'],
-			exclude: /node_modules/,
-			include: path.join(__dirname, 'src'),
-		},{
-			test: /\.jsx$/,
-			loaders: ['babel'],
-			// loaders: ['react-hot','babel'],
-			exclude: /node_modules/,
-			include: path.join(__dirname, 'src'),
-			// loader: 'babel-loader',
-		},{
-			test: /\.less$/,
-			exclude: /node_modules/,
-			include: path.join(__dirname, 'src'),
-			loader: 'style-loader!css-loader!autoprefixer-loader!less-loader'
-		}]
-	},
-	plugins: [
-		new webpack.optimize.UglifyJsPlugin({
-			compress: {
-				warnings: false,
-			},
-			output: {
-				comments: false,
-			}
-		}),
-		new webpack.HotModuleReplacementPlugin(),
-		// new webpack.NoErrorsPlugin(),
-	]
-};
-*/

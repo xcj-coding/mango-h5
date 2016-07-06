@@ -46,13 +46,13 @@ module.exports = {
 		progress: true
 	},
 	module: {
-		preLoaders: [
-			{
-				test: /\.(jsx|js)$/,
-				exclude: /node_modules/,
-				loader: 'eslint-loader'
-			}
-		],
+		// preLoaders: [
+		// 	{
+		// 		test: /\.(jsx|js)$/,
+		// 		exclude: /node_modules/,
+		// 		loader: 'eslint-loader'
+		// 	}
+		// ],
 		loaders: [
 			{
 				test: /\.css$/,

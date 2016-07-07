@@ -12,12 +12,8 @@ body{overflow-y:scroll;}
 .mg-pos-a{position:absolute;}
 .mg-pos-f{position:fixed;}
 /* 公共-字体 */
-@font-face{font-family:'HYQiHei';src:url('../fonts/HYQiHei.OTF');}
-@font-face{font-family:'ROBOTO';src:url('../fonts/ROBOTO.TTF');font-style:normal;}
 .mg-font-yahei{font-family:"Microsoft YaHei";}
 .mg-font-arial{font-family:"Arial";}
-.mg-font-hyqihei{font-family:'HYQiHei',"Microsoft YaHei";font-weight:normal;}
-.mg-font-roboto{font-family:'ROBOTO',"Microsoft YaHei";}
 /* 公共-字体大小 */
 .mg-fs20{font-size:0.625rem;}
 .mg-fs21{font-size:0.65625rem;}

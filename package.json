@@ -16,7 +16,6 @@
     "url": "https://git.coding.net/xiaox/mango-h5.git"
   },
   "dependencies": {
-    "amazeui-touch": "^1.0.0-beta.4",
     "history": "^1.13.0",
     "immutable": "^3.8.1",
     "react": "^15.1.0",

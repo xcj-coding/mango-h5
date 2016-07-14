@@ -1,3 +1,4 @@
+$(".mg-banner-img").show();
 var swiperBanner = new Swiper('.mg-banner',{
 	wrapperClass : 'mg-banner-bx',
 	slideClass : 'mg-banner-img',
@@ -7,6 +8,7 @@ var swiperBanner = new Swiper('.mg-banner',{
 	autoplay: 3000
 })
 
+$(".mg-tjcp-img").show();
 var swiperTjcp = new Swiper('.mg-tjcp-warp',{
 	wrapperClass : 'mg-tjcp-bx',
 	slideClass : 'mg-tjcp-img',

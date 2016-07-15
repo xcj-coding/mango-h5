@@ -43,6 +43,7 @@ a{background-color:transparent;-webkit-text-decoration-skip:objects;text-decorat
 /*公共-盒子*/
 .mg-warp{height:100%;width:100%;}
 .mg-mt18{margin-top:0.75rem;}
+.mg-mt32{margin-top:1.3334rem;}
 .mg-mt35{margin-top:1.4583rem;}
 .mg-ml10{margin-left:0.4167rem;}
 .mg-pl16{padding-left:0.6667rem;}
@@ -65,12 +66,13 @@ a{background-color:transparent;-webkit-text-decoration-skip:objects;text-decorat
 .mg-fs28{font-size:1.1667rem;}
 .mg-fs30{font-size:1.25rem;}
 .mg-fs32{font-size:1.3333rem;}
+.mg-fs36{font-size:1.5rem;}
 .mg-fs42{font-size:1.75rem;}
 .mg-fs56{font-size:2.3333rem;}
 .mg-fs66{font-size:2.75rem;}
 
 /* 公共-文字隐藏 */
-.mg-text-hidden{overflow:hidden;text-indent:99999px;}
+.mg-text-hidden{overflow:hidden;text-indent:99999px;font-size:0;}
 
 /* 公共-文字换行 */
 .mg-ellipsis,.mg-text-truncate{word-wrap:normal;/* for IE */text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
@@ -119,5 +121,9 @@ a{background-color:transparent;-webkit-text-decoration-skip:objects;text-decorat
 
 /* icon */
 .mg-inc-ico1{display:inline-block;width:0.5833rem;height:1rem;margin:0 0 0.2rem 0.5rem;background-position:-7.0833rem -1rem;vertical-align:middle;}
-.mg-inc-ico2{display:inline-block;width:1.1563rem;height:1.0938rem;margin-right:0.375rem;background-position:-13.84375rem -0.5625rem;vertical-align:middle;}
-.mg-inc-dateico{display:inline-block;width:1.0938rem;height:1.0938rem;margin-right:0.625rem;background-position:-11.625rem -0.5625rem;vertical-align:middle;}
+.mg-inc-ico2{display:inline-block;width:1.5rem;height:1.5rem;margin-right:0.375rem;background-position:-18.4584rem -0.75rem;vertical-align:middle;}
+.mg-inc-dateico{display:inline-block;width:1.4584rem;height:1.4584rem;margin-right:0.375rem;background-position:-15.5rem -0.75rem;vertical-align:middle;}
+
+/* 公共组件 */
+.mg-loading{width:10rem;height:6rem;padding-top:1rem;margin:-3rem 0 0 -5rem;background-color:#fff;border-radius:0.5rem;position:fixed;z-index:101;left:50%;top:50%;text-align:center;}
+.mg-loading img{width:4rem;height:4rem;}

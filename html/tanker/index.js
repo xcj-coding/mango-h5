@@ -18,6 +18,7 @@ var swiperTjcp = new Swiper('.mg-tjcp-warp',{
 	autoplay: 8000
 })
 
+$(".mg-dbanner-img").show();
 var swiperDBanner = new Swiper('.mg-dbanner',{
 	wrapperClass : 'mg-dbanner-bx',
 	slideClass : 'mg-dbanner-img',

@@ -127,3 +127,11 @@ a{background-color:transparent;-webkit-text-decoration-skip:objects;text-decorat
 /* 公共组件 */
 .mg-loading{width:10rem;height:6rem;padding-top:1rem;margin:-3rem 0 0 -5rem;background-color:#fff;border-radius:0.5rem;position:fixed;z-index:101;left:50%;top:50%;text-align:center;}
 .mg-loading img{width:4rem;height:4rem;}
+ 
+/* 弹窗 */
+.mg_tips{width:20rem;background-color:#fff;border-radius:0.5rem;position:fixed;z-index:101;left:50%;top:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);text-align:center;}
+.mg_tips_btn{height:4rem;border-top:1px solid #eee;line-height:4rem;}
+.mg_tips_btn a{display:block;color:#006dff;}
+.mg_tips_btn a:nth-child(2){border-left:1px solid #eee;}
+.mg_tips_text{padding:1.5rem 1rem;text-align:center;}
+.mg_tips_tit{margin-bottom:-1rem;line-height:4rem;}

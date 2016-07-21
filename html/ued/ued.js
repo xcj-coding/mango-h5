@@ -7,7 +7,7 @@ init.loading=function(t,bg){
 	}
 	$('body').append(showHtml);
 
-	$(".mg-mark,.mg-mark-black").on("tap",function(){
+	$(".mg-mark,.mg-mark-black").on("click",function(){
 		$(".mg-mark,.mg-mark-black,.mg-loading").remove();
 	})
 
@@ -27,7 +27,7 @@ init.tips=function(data){
 	var alertHtml='<div class="' + mark + '"></div><div class="mg-tips mg-fs28">'+ title + message + button + '</div>';
     $('body').append(alertHtml);
 
-	$(".mg-mark,.mg-mark-black").on("tap",function(){
+	$(".mg-mark,.mg-mark-black").on("click",function(){
 		$(".mg-mark,.mg-mark-black,.mg-tips").remove();
 	})
 	if(data.fn){
@@ -71,34 +71,34 @@ $(function(){
 	});
 
 
-	$("#load-btn1").on("tap",function(){
+	$("#load-btn1").on("click",function(){
 		init.loading(4);
 	})
 
-	$("#load-btn2").on("tap",function(){
+	$("#load-btn2").on("click",function(){
 		init.loading(4,"black");
 	})
-	$("#alert-btn1").on("tap",function(){
+	$("#alert-btn1").on("click",function(){
 		init.tips({
 			'mark':'black',
 			'title':'信息提示',
 			'message':'信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容',
 			'button':'<a class="mg-col mg-col2" href="">提交</a><a id="btn-close" class="mg-col mg-col2" href="javascript:;">取消</a>',
 			'fn':function(){
-				$("#btn-close").on("tap",function(){
+				$("#btn-close").on("click",function(){
 					$(".mg-mark,.mg-mark-black,.mg-tips").remove();
 				})
 			}
 		});
 	})
 
-	$("#alert-btn2").on("tap",function(){
+	$("#alert-btn2").on("click",function(){
 		init.tips({
 			'title':'信息提示',
 			'message':'信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容',
 			'button':'<a class="mg-col mg-col2" href="">提交</a><a id="btn-close" class="mg-col mg-col2" href="javascript:;">取消</a>',
 			'fn':function(){
-				$("#btn-close").on("tap",function(){
+				$("#btn-close").on("click",function(){
 					$(".mg-mark,.mg-mark-black,.mg-tips").remove();
 				})
 			}

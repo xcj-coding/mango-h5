@@ -1,37 +1,41 @@
 var init={};
-init.loading=function(t){
-	var showHtml='<div class="mg-mark"></div><div class="mg-loading"><img src="/i/loading.gif" /></div>'
-
+init.loading=function(t,bg){
+	if(bg=="black"){
+		var showHtml='<div class="mg-mark-black"></div><div class="mg-loading"><img src="/i/loading.gif" /></div>';
+	}else{
+		var showHtml='<div class="mg-mark"></div><div class="mg-loading"><img src="/i/loading.gif" /></div>';
+	}
 	$('body').append(showHtml);
 
-	$(".mg-mark").on("tap",function(){
-		$(".mg-mark,.mg-loading").remove();
+	$(".mg-mark,.mg-mark-black").on("tap",function(){
+		$(".mg-mark,.mg-mark-black,.mg-loading").remove();
 	})
 
 	setTimeout(function(){
-		$(".mg-mark,.mg-loading").remove();
+		$(".mg-mark,.mg-mark-black,.mg-loading").remove();
 	},3*1000)
 
 }
 
-init.tips=function(){
-	var alertHtml='<div class="mg-mark"></div>'+
-        '<div class="mg-tips mg-fs28">'+
-            '<h3 class="mg-tips-tit mg-fs32">提示</h3>'+
-            '<div class="mg-tips-text">提示的内容信息提示的内容信息提示的内容信息提示的内容信息</div>'+
-            '<div class="mg-tips-btn mg-g">'+
-                '<a class="mg-col mg-col2" href="">提交</a>'+
-                '<a class="mg-col mg-col2" href="">重试</a>'+
-            '</div>'+
-        '</div>';
+init.tips=function(data){
+	var mark = data.mark ? 'mg-mark-black' : 'mg-mark'
+	var title = data.title ? '<h3 class="mg-tips-tit mg-fs32">' + data.title +'</h3>':'';
+	var message = data.message ? '<div class="mg-tips-text">' + data.message +'</div>':'';
+	var button = data.button ? '<div class="mg-tips-btn mg-g">' + data.button + '</div>' :'';
+	console.log(data.fn);
+
+	var alertHtml='<div class="' + mark + '"></div><div class="mg-tips mg-fs28">'+ title + message + button + '</div>';
     $('body').append(alertHtml);
 
-	$(".mg-mark").on("tap",function(){
-		$(".mg-mark,.mg_tips").remove();
+	$(".mg-mark,.mg-mark-black").on("tap",function(){
+		$(".mg-mark,.mg-mark-black,.mg-tips").remove();
 	})
+	if(data.fn){
+		data.fn();
+	}
 
+	
 }
-
 
 $(function(){
 
@@ -67,12 +71,38 @@ $(function(){
 	});
 
 
-	$("#load-btn").on("tap",function(){
+	$("#load-btn1").on("tap",function(){
 		init.loading(4);
 	})
 
+	$("#load-btn2").on("tap",function(){
+		init.loading(4,"black");
+	})
 	$("#alert-btn1").on("tap",function(){
-		init.tips();
+		init.tips({
+			'mark':'black',
+			'title':'信息提示',
+			'message':'信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容',
+			'button':'<a class="mg-col mg-col2" href="">提交</a><a id="btn-close" class="mg-col mg-col2" href="javascript:;">取消</a>',
+			'fn':function(){
+				$("#btn-close").on("tap",function(){
+					$(".mg-mark,.mg-mark-black,.mg-tips").remove();
+				})
+			}
+		});
+	})
+
+	$("#alert-btn2").on("tap",function(){
+		init.tips({
+			'title':'信息提示',
+			'message':'信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容信息内容',
+			'button':'<a class="mg-col mg-col2" href="">提交</a><a id="btn-close" class="mg-col mg-col2" href="javascript:;">取消</a>',
+			'fn':function(){
+				$("#btn-close").on("tap",function(){
+					$(".mg-mark,.mg-mark-black,.mg-tips").remove();
+				})
+			}
+		});
 	})
 })
 

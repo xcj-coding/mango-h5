@@ -139,8 +139,9 @@ a{background-color:transparent;-webkit-text-decoration-skip:objects;text-decorat
 .mg-tit1-more{color:#999;}
 
 /* 遮罩层 */
-.mg-mark{position:fixed;z-index:100;left:0;top:0;width:100%;height:100%;background-color:#fff;background:rgba(250, 250, 250, 0.4);}
-.mg-loading{width:10rem;height:6rem;padding-top:1rem;margin:-3rem 0 0 -5rem;background-color:#fff;border-radius:0.5rem;position:fixed;z-index:101;left:50%;top:50%;text-align:center;}
+.mg-mark,.mg-mark-black{position:fixed;z-index:100;left:0;top:0;width:100%;height:100%;background-color:#fff;background:rgba(250, 250, 250, 0.4);}
+.mg-mark-black{background-color:#000;background:rgba(0, 0, 0, 0.4);}
+.mg-loading{width:10rem;height:6rem;padding-top:1rem;margin:-3rem 0 0 -5rem;background-color:#fff;border:1px solid #efefef;border-radius:0.5rem;position:fixed;z-index:101;left:50%;top:50%;text-align:center;}
 .mg-loading img{width:4rem;height:4rem;}
 
 /* 弹窗 */

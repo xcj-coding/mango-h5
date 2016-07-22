@@ -1,3 +1,4 @@
+body{background-color:#fff;}
 .ued-tit{width:100%;height:50px;position:fixed;top:0;left:0;text-align:center;border-bottom:1px solid #0b6fa2;background-color:#0e90d2;line-height:50px;color:#fff;}
 .ued-main{position:fixed;top:50px;left:0;width:100%;height:100%;overflow:scroll;}
 .ued-nav{width:240px;height:100%;padding-top:10px;background-color:#fafafa;border-right:1px solid #f0f0f0;}

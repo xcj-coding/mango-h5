@@ -113,9 +113,114 @@
 			</div>
 		</section>
 		<!-- 列表 end -->
+        <!-- nav -->
+        <nav class="mg-nav">
+            <a class="mg-nav-item" href="#">
+                <em class="mg-bgs mg-ico-filter1"></em>
+                <span class="mg-nav-label">目的地</span>
+            </a>
+            <a class="mg-nav-item" href="#">
+                <em class="mg-bgs mg-ico-filter2"></em>
+                <span class="mg-nav-label">价格区间</span>
+            </a>
+            <a class="mg-nav-item" href="#">
+                <em class="mg-bgs mg-ico-filter3"></em>
+                <span class="mg-nav-label">综合排序</span>
+            </a>
+            <a class="mg-nav-item" href="#">
+                <em class="mg-bgs mg-ico-filter4"></em>
+                <span class="mg-nav-label">筛选</span>
+            </a>
+        </nav>
+        <!-- nav end-->
+        <!-- 遮罩 -->
+        <div class="mg-mark mg-mark-black" style="display:none;"></div>
+         <!-- 价格区间 -->
+        <section class="mg-tips-price" style="display:none;" >
+            <h4>价格区间 <span>清除全部</span> </h4>
+            <div class="mg-tips-price-content">
+                <a href="#" class="active">不限</a>
+                <a href="#" >¥1000以下</a>
+                <a href="#" >不限</a>
+                <a href="#" >不限</a>
+                <a href="#" >不限</a>
+                <a href="#" >不限</a>
+            </div>
+            <span>确定</span>
+        </section>
+        <!-- 综合排序 -->
+        <section class="mg-tips-sort"  style="display:none;">
+            <dl>
+                <dt>综合排序</dt>
+                <dd>价格从低到高</dd>
+                <dd>价格从高到低</dd>
+                <dd>销量从高到低</dd>
+            </dl>
+        </section>
+        <!-- 筛选 -->
+        <section class="mg-tips-select" style="display:none;">
+            <h4>筛选 <span>清除选项</span> </h4>
+            <div class="mg-tips-select-content">
+                <p>出发时间</p>
+                <div class="mg-tips-select-month">
+                    <a href="#" class="active">不限</a>
+                    <a href="#" >11月</a>
+                    <a href="#" >12月</a>
+                    <a href="#" >1月</a>
+                    <a href="#" >2月</a>
+                    <a href="#" >3月</a>
+                    <a href="#" >4月</a>
+                    <a href="#" >5月</a>
+                    <a href="#" >6月</a>
+                    <a href="#" >7月</a>
+                    <a href="#" >8月</a>
+                    <a href="#" >9月</a>
+                    <a href="#" >10月</a>
+                </div>
+                <p>游玩天数</p>
+                <div class="mg-tips-select-day">
+                    <a href="#" class="active">不限</a>
+                    <a href="#" >1天</a>
+                    <a href="#" >2天</a>
+                    <a href="#" >3天</a>
+                    <a href="#" >4天</a>
+                    <a href="#" >5天</a>
+                    <a href="#" >6天</a>
+                    <a href="#" >7天</a>
+                    <a href="#" >8天</a>
+                    <a href="#" >9天</a>
+                    <a href="#" >9天以上</a>
+                </div>
+            </div>
+            <span>确定</span>
+        </section>
     </div>
     <script type="text/javascript" src="/js/zepto.min.js"></script>
     <script type="text/javascript" src="/js/swiper.min.js"></script>
     <script type="text/javascript" src="holiday.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.mg-nav').on('tap','a',function(){
+                var index = $(this).index();
+                $('.mg-mark').show();
+                switch(index){
+                    case 0:
+                        return false;
+                    break;
+                    case 1:
+                        $(".mg-tips-price").show();
+                    break;
+                    case 2:
+                        $(".mg-tips-sort").show();
+                    break;
+                    case 3:
+                        $(".mg-tips-select").show();
+                    break;
+
+                }
+                
+            });
+        })
+    </script>
 </body>
 </html>

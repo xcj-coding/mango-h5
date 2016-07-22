@@ -1,6 +1,6 @@
-body{background-color:#fff;}
+body{background:#fff;}
 .ued-tit{width:100%;height:50px;position:fixed;top:0;left:0;text-align:center;border-bottom:1px solid #0b6fa2;background-color:#0e90d2;line-height:50px;color:#fff;}
-.ued-main{position:fixed;top:50px;left:0;width:100%;height:100%;overflow:scroll;}
+.ued-main{position:fixed;top:50px;left:0;width:100%;height:100%;overflow:scroll;background:#fff;}
 .ued-nav{width:240px;height:100%;padding-top:10px;background-color:#fafafa;border-right:1px solid #f0f0f0;}
 .ued-nav a{display:block;width:100%;height:40px;line-height:40px;color:#777;text-indent:12px;font-size:14px;}
 .ued-nav a:hover{text-decoration:none;background-color:#f0f0f0;}

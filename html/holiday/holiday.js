@@ -17,13 +17,3 @@ var swiperlmzq = new Swiper('.mg-hd-swiper',{
 	loop: true,
 	autoplay: 3000
 });
-
-$(".mg-date-table dd span").on("tap",function(){
-	var _this=$(this);
-	console.log(_this.find("strong").size())
-	if(_this.find("strong").size()>=1){
-		$(".mg-date-table dd span").removeClass("mg-click");
-		_this.addClass("mg-click");
-	}
-
-})

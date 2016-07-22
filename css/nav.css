@@ -1,0 +1,36 @@
+.mg-nav{
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 3.6668rem;
+    padding: 0;
+    table-layout: fixed;
+    border: 0;
+    box-shadow: 0 0 1px #3e3e3e;
+    background-color:#3e3e3e;
+    background-color:rgba(62,62,62,0.8);
+    -webkit-touch-callout: none;
+}
+.mg-nav-item{
+    display: table-cell;
+    overflow: hidden;
+    width: 1%;
+    height: 3.6668rem;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #929292;
+}
+
+.mg-nav-label{
+    font-size: 0.4583rem;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fff;
+}

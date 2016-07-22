@@ -32,38 +32,11 @@ a{background-color:transparent;-webkit-text-decoration-skip:objects;text-decorat
 .mg-col-4{-webkit-box-flex:0;-ms-flex:0 0 66.66667%;flex:0 0 66.66667%;max-width:66.66667%;}
 .mg-col-5{-webkit-box-flex:0;-ms-flex:0 0 83.33333%;flex:0 0 83.33333%;max-width:83.33333%;}
 .mg-col-6{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
-/* 盒子 */
-/*.mg-warp{height:100%;width:100%;}*/
-/*.mg-mt18{margin-top:0.75rem;}*/
-/*.mg-mt32{margin-top:1.3334rem;}*/
-/*.mg-mt35{margin-top:1.4583rem;}*/
-/*.mg-ml10{margin-left:0.4167rem;}*/
-/*.mg-pl16{padding-left:0.6667rem;}*/
-/*.mg-pr16{padding-right:0.6667rem;}*/
-/* 定位 */
-/*.mg-pr{position:relative;}
-.mg-pa{position:absolute;}
-.mg-pf{position:fixed;}*/
 /* 颜色 */
 .mg-c999{color:#999;}
 .mg-c444{color:#444;}
 .mg-c6a6a6a{color:#6a6a6a;}
 .mg-cff7e00{color:#ff7e00;}
-/* 字体 */
-/*.mg-ff-yahei{font-family:"Microsoft YaHei";}*/
-/*.mg-ff-arial{font-family:"Arial";}*/
-/* 字体大小 */
-.mg-fs20{font-size:0.8333rem;}
-.mg-fs22{font-size:0.9167rem;}
-.mg-fs24{font-size:1rem;}
-.mg-fs26{font-size:1.0833rem;}
-.mg-fs28{font-size:1.1667rem;}
-.mg-fs30{font-size:1.25rem;}
-.mg-fs32{font-size:1.3333rem;}
-.mg-fs36{font-size:1.5rem;}
-.mg-fs42{font-size:1.75rem;}
-.mg-fs56{font-size:2.3333rem;}
-.mg-fs66{font-size:2.75rem;}
 /* 垂直居中 */
 .mg-va:before{content:'';display:inline-block;height:100%;vertical-align:middle;}
 .mg-vab,.mg-vam{display:inline-block;max-width:100%;}

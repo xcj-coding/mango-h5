@@ -126,16 +126,16 @@ a{background-color:transparent;-webkit-text-decoration-skip:objects;text-decorat
 
 
 /* 页头 */
-.mg-header{width:100%;height:4.875rem;border-bottom:1px solid #d4d4d4;background-color:#fff;line-height:4.875rem;overflow:hidden;}
+.mg-header{width:100%;height:4.875rem;border-bottom:1px solid #d4d4d4;background-color:#fff;position:relative;line-height:4.875rem;overflow:hidden;}
 .mg-header-btn,.mg-header-close{display:inline-block;width:2.6rem;height:3.125rem;vertical-align:middle;line-height:3.125rem;text-align:center;}
-.mg-header-close{left:1rem;top:50%;margin-top:-1.5625rem;}
-.mg-header h1{width:100%;text-align:center;font-weight:normal;}
-.mg-header-r{margin-left:-10rem;right:0.5rem;top:0;}
+.mg-header-close{position:absolute;left:1rem;top:50%;margin-top:-1.5625rem;}
+.mg-header h1{width:100%;text-align:center;font-weight:normal;font-size:1.3334rem;}
+.mg-header-r{margin-left:-10rem;position:absolute;right:0.5rem;top:0;}
 .mg-header-search{height:2rem;margin:1.4rem 6.2rem 0 4.6rem;padding:0 0.5rem 0 7.8rem;border:1px solid #ccc;border-radius:1rem;line-height:1.8rem;}
-.mg-header-search strong{display:inline-block;width:4.5rem;height:1.3333rem;margin:0 0.5rem 0 -7.5rem;border-right:0.125rem solid #ccc;color:#454545;font-weight:normal;vertical-align:middle;text-align:center;line-height:1.4333rem;}
-.mg-header-search input{width:100%;height:1.3333rem;border:none;vertical-align:middle;line-height:1.3333rem;}
+.mg-header-search strong{display:inline-block;width:4.5rem;height:1.3333rem;margin:0 0.5rem 0 -7.5rem;border-right:0.125rem solid #ccc;color:#454545;font-weight:normal;vertical-align:middle;text-align:center;line-height:1.4333rem;font-size:1.0834rem;}
+.mg-header-search input{width:100%;height:1.3333rem;border:none;vertical-align:middle;line-height:1.3333rem;font-size:1rem;}
 .mg-header-search input::-webkit-input-placeholder{background:url(/i/search.png) no-repeat 0 0.1rem/1.25rem 1.25rem;text-indent:1.5rem;color:#ccc;}
 .mg-header-search input::-moz-placeholder{background:url(/i/search.png) no-repeat 0 0.1rem/1.25rem 1.25rem;text-indent:1.5rem;color:#ccc;}
 .mg-header-search input::-ms-input-placeholder{background:url(/i/search.png) no-repeat 0 0.1rem/1.25rem 1.25rem;text-indent:1.5rem;color:#ccc;}
-.mg-header-area{padding:0 0.5rem;color:#ff7e00;}
+.mg-header-area{padding:0 0.5rem;color:#ff7e00;font-size:1.0834rem;}
 .mg-header-area em{margin-left:0.5rem;}

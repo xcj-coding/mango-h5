@@ -260,17 +260,42 @@
 				<!-- 公共js组件 -->
 				<div id="nav5-box" class="ued-box">
 					<h2 class="h2">公共js组件</h2>
+					<h3 class="h3">弹窗</h3>
 					<ul class="com-btn1 cf">
 			            <li class="fl"><a id="load-btn1" href="javascript:;">loading加载-遮罩黑</a></li>
 			            <li class="fl"><a id="load-btn2" href="javascript:;">loading加载-遮罩白</a></li>
 			            <li class="fl"><a id="alert-btn1" href="javascript:;">弹窗1-遮罩黑</a></li>
 			            <li class="fl"><a id="alert-btn2" href="javascript:;">弹窗2-遮罩白</a></li> 
 			        </ul>
+			        <h3 class="h3">焦点图</h3>
+			        <div class="w350">
+				        <div class="mg-swiper">
+							<div class="mg-swiper-bx">
+				                <a class="mg-swiper-img" href=""><img src="/i/holiday/img1.jpg" width="100%" alt=""></a>
+				                <a class="mg-swiper-img" href=""><img src="/i/holiday/img1.jpg" width="100%" alt=""></a>
+				                <a class="mg-swiper-img" href=""><img src="/i/holiday/img1.jpg" width="100%" alt=""></a>
+				            </div>
+				            <div class="mg-swiper-ico"><span class="mg-swiper-active"></span><span></span><span></span></div>
+			            </div>
+						<p>
+							js-swiper写法<br/>
+							$(".mg-swiper-img").show();<br/>
+							var swiperlmzq = new Swiper('.mg-swiper',{<br/>
+								wrapperClass : 'mg-swiper-bx',<br/>
+								slideClass : 'mg-swiper-img',<br/>
+								pagination : '.mg-swiper-ico',<br/>
+								bulletActiveClass : 'mg-swiper-active',<br/>
+								loop: true,<br/>
+								autoplay: 3000<br/>
+							})<br/>
+						</p>
+		            </div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<script type="text/javascript" src="/js/zepto.min.js"></script>
+	<script type="text/javascript" src="/js/swiper.min.js"></script>
     <script type="text/javascript" src="ued.js"></script>
 </body>
 </html>

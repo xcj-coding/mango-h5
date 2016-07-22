@@ -38,6 +38,15 @@ init.tips=function(data){
 }
 
 $(function(){
+	$(".mg-swiper-img").show();
+	var swiperlmzq = new Swiper('.mg-swiper',{
+		wrapperClass : 'mg-swiper-bx',
+		slideClass : 'mg-swiper-img',
+		pagination : '.mg-swiper-ico',
+		bulletActiveClass : 'mg-swiper-active',
+		loop: true,
+		autoplay: 3000
+	})
 
 	var urlStr=(window.location.toString()).split("#")[1];
 	if(!urlStr){

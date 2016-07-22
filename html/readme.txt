@@ -5,3 +5,8 @@
 油轮列表：cruise/list.html
 油轮详情：cruise/details.html
 油轮公共模块：cruise/component.html
+
+跟团游频道：cruise/
+跟团游首页：cruise/index.html
+跟团游列表：cruise/list.html
+跟团游详情：cruise/details.html

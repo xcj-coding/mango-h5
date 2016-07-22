@@ -26,7 +26,7 @@
 .ued-h2 h2{margin-top:10px;}
 
 .com-btn1{width:100%;padding:1rem;}
-.com-btn1 li{width:30%;margin:5px 0 0 5px;}
+.com-btn1 li{width:30%;height:30px;margin:5px 0 0 5px;}
 .com-btn1 a{display:inline-block;width:100%;height:2rem;background-color:#ff7e01;border-radius:0.3rem;text-align:center;line-height:2rem;color:#fff;}
 
 @media screen and (max-width: 750px) {

@@ -5,7 +5,7 @@
 .mg-hot-box{float:left;}
 .mg-hot-img{display:block;position:relative;}
 .mg-hot-img img{display:block;}
-.mg-hot-img h4{width:100%;height:3rem;padding:0 0.5rem;background-color:#000;background:rgba(0, 0, 0, 0.5);position:absolute;left:0;bottom:0;color:#fff;font:normal 1rem/3rem "Microsoft Yahei";}
+.mg-hot-img h4{width:100%;height:3rem;padding:0 0.5rem;background-color:#000;background:rgba(0,0,0,0.5);position:absolute;left:0;bottom:0;color:#fff;font:normal 1rem/3rem "Microsoft Yahei";}
 .mg-hot-box h2{padding:0.6rem 0 0.8rem;font:normal 1.0834rem/1.2rem "Microsoft Yahei";}
 .mg-hot-box h2 a{color:#454545;}
 .mg-hot-tag em{margin-right:0.5rem;}
@@ -24,21 +24,35 @@
 .mg-productlist{padding:0 0.8333rem;border-top:1rem solid #ededed;background-color:#fff;}
 .mg-productlist-list1{width:100%;padding-bottom:1rem;border-bottom:1px solid #ddd;}
 .mg-productlist-list1 li a{display:block;width:100%;position:relative;}
-.mg-productlist-list1 strong{display:block;width:100%;height:1.75rem;padding:0 0.5rem;background-color:#000;background:rgba(0, 0, 0, 0.5);position:absolute;left:0;bottom:0;font-weight:normal;line-height:1.75rem;color:#fff;text-align:right;}
+.mg-productlist-list1 strong{display:block;width:100%;height:1.75rem;padding:0 0.5rem;background-color:#000;background:rgba(0,0,0,0.5);position:absolute;left:0;bottom:0;font-weight:normal;line-height:1.75rem;color:#fff;text-align:right;}
 .mg-productlist-list2 li{height:9rem;margin-bottom:1rem;padding-top:1rem;border-top:1px solid #ddd;overflow:hidden;}
 .mg-productlist-list2 li:first-child{border-top:none;}
 .mg-productlist-list2 img{float:left;width:8.1667rem;}
 .mg-productlist-r1{padding-left:1rem;position:relative;overflow:hidden;}
 .mg-productlist-list2 h3{height:3.2rem;padding-bottom:0.5rem;color:#444;font-size:1.0833rem;line-height:1.6rem;}
-.mg-productlist-explain{padding-top:0.5rem; color:#666;line-height:1.2rem;}
+.mg-productlist-explain{padding-top:0.5rem;color:#666;line-height:1.2rem;}
 .mg-productlist-price{position:absolute;right:0;bottom:0;text-align:right;}
 .mg-productlist-price strong{display:block;font-size:0.8333rem;color:#ff7e00;}
 .mg-productlist-price sub{bottom:0;}
 .mg-productlist-price em{font-size:1.5833rem;font-style:normal;}
 .mg-productlist-price del{color:#999;}
 
-
 /* 跟团游详情－－begin */
-.mg-hd-h3 {padding:0.5rem 1rem;font-size:1rem;font-weight:normal;line-height:1.5rem;color:#454545;}
-
+.mg-hd-pname{margin-bottom:1rem;padding:1rem;background:#fff;}
+.mg-hd-pname h3{margin-bottom:1rem;font:normal 1.0834rem/1.2rem "Microsoft Yahei";color:#454545;}
+.mg-hd-pname-l{float:left;width:30%;font-size:1rem;color:#ff7e00;}
+.mg-hd-pname-l em{font-size:1.5rem;line-height:3rem;font-style:normal;}
+.mg-hd-pname-l sub{font-size:1em;line-height:3rem;}
+.mg-hd-pname-r{float:left;width:70%;color:#999;}
+.mg-hd-pname-r p{line-height:1.5rem;}
+.mg-calendar{margin-bottom:1rem;padding:.5rem;background:#fff;}
+.mg-calendar p{margin-left:2rem;line-height:1.6rem;}
+.mg-calendar p span{margin:.5rem .5rem 0 0;}
+.mg-details{overflow:hidden;background:#fff;}
+.mg-details ul{overflow:hidden;line-height:3rem;}
+.mg-details ul li{float:left;width:0.0417rem;font-size:1.1667rem;color:#999;text-align:center;}
+.mg-details ul li:nth-child(2n-1){width:33.2%;color:#454545;}
+.mg-details ul li.selected{border-bottom:1px solid #ff7e00;}
+.mg-details div{min-height:100px;background:#fff;}
+.mg-details div:nth-child(2){overflow:hidden;background:#ededed;}
 /* 跟团游详情－－end */

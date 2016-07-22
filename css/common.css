@@ -12,7 +12,7 @@ textarea{overflow:auto;resize:none;}
 ol,ul,dl{list-style:none;}
 sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
 sub{bottom:-0.25rem;}
-sup{top:-0.5rem;}
+/* sup{top:-0.5rem;} */
 hr{box-sizing:content-box;height:0;overflow:visible;}
 a{background-color:transparent;-webkit-text-decoration-skip:objects;text-decoration:none;}
 

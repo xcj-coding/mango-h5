@@ -36,3 +36,9 @@
 .mg-productlist-price sub{bottom:0;}
 .mg-productlist-price em{font-size:1.5833rem;font-style:normal;}
 .mg-productlist-price del{color:#999;}
+
+
+/* 跟团游详情－－begin */
+.mg-hd-h3 {padding:0 1rem;font-size:1rem;font-weight:normal;line-height:1.75rem;}
+
+/* 跟团游详情－－end */

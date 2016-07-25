@@ -1,93 +1,90 @@
 /* 热卖专区 */
-.mg-hot { padding: 0 0.8333rem; border-top: 1rem solid #ededed; background-color: #fff; }
-.mg-hot-swiper { width: 100%; padding-bottom: 2rem; position: relative; overflow: hidden; }
-.mg-hot-list { width: 50000rem; overflow: hidden; }
-.mg-hot-box { float: left; }
-.mg-hot-img { display: block; position: relative; }
-.mg-hot-img img { display: block; }
-.mg-hot-img h4 { width: 100%; height: 3rem; padding: 0 0.5rem; background-color: #000; background: rgba(0, 0, 0, 0.5); position: absolute; left: 0; bottom: 0; color: #fff; font: normal 1rem/3rem "Microsoft Yahei"; }
-.mg-hot-box h2 { padding: 0.6rem 0 0.8rem; font: normal 1.0834rem/1.2rem "Microsoft Yahei"; }
-.mg-hot-box h2 a { color: #454545; }
-.mg-hot-tag em { margin-right: 0.5rem; }
-.mg-hot-explain { padding-top: 0.5rem; color: #666; font-size: 0.9167rem; }
-.mg-hot-b { width: 100%; }
-.mg-hot-price { text-align: right; }
-.mg-hot-price strong { display: block; color: #ff7e00; }
-.mg-hot-price strong sub { bottom: 0; }
-.mg-hot-price strong em { font-size: 1.5833rem; font-style: normal; }
-.mg-hot-price del { color: #999; }
-.mg-hot-ico { width: 100%; height: 2.4167rem; position: absolute; z-index: 20; bottom: 0; left: 0; text-align: center; line-height: 2.4167rem; }
-.mg-hot-ico span { display: inline-block; width: 0.6rem; height: 0.6rem; margin: 0 0.2rem; background: #b0b0b0; border-radius: 100%; vertical-align: middle; }
-.mg-hot-ico span.mg-hot-active { background-color: #ff7e00; }
+.mg-hot{padding:0 0.8333rem;border-top:1rem solid #ededed;background-color:#fff;}
+.mg-hot-swiper{width:100%;padding-bottom:2rem;position:relative;overflow:hidden;}
+.mg-hot-list{width:50000rem;overflow:hidden;}
+.mg-hot-box{float:left;}
+.mg-hot-img{display:block;position:relative;}
+.mg-hot-img img{display:block;}
+.mg-hot-img h4{width:100%;height:3rem;padding:0 0.5rem;background-color:#000;background:rgba(0,0,0,0.5);position:absolute;left:0;bottom:0;color:#fff;font:normal 1rem/3rem "Microsoft Yahei";}
+.mg-hot-box h2{padding:0.6rem 0 0.8rem;font:normal 1.0834rem/1.2rem "Microsoft Yahei";}
+.mg-hot-box h2 a{color:#454545;}
+.mg-hot-tag em{margin-right:0.5rem;}
+.mg-hot-explain{padding-top:0.5rem;color:#666;font-size:0.9167rem;}
+.mg-hot-b{width:100%;}
+.mg-hot-price{text-align:right;}
+.mg-hot-price strong{display:block;color:#ff7e00;}
+.mg-hot-price strong sub{bottom:0;}
+.mg-hot-price strong em{font-size:1.5833rem;font-style:normal;}
+.mg-hot-price del{color:#999;}
+.mg-hot-ico{width:100%;height:2.4167rem;position:absolute;z-index:20;bottom:0;left:0;text-align:center;line-height:2.4167rem;}
+.mg-hot-ico span{display:inline-block;width:0.6rem;height:0.6rem;margin:0 0.2rem;background:#b0b0b0;border-radius:100%;vertical-align:middle;}
+.mg-hot-ico span.mg-hot-active{background-color:#ff7e00;}
 
 /* 产品列表，如：出境跟团游，国内跟团游 */
-.mg-productlist { padding: 0 0.8333rem; border-top: 1rem solid #ededed; background-color: #fff; }
-.mg-productlist-list1 { width: 100%; padding-bottom: 1rem; border-bottom: 1px solid #ddd; }
-.mg-productlist-list1 li a { display: block; width: 100%; position: relative; }
-.mg-productlist-list1 strong { display: block; width: 100%; height: 1.75rem; padding: 0 0.5rem; background-color: #000; background: rgba(0, 0, 0, 0.5); position: absolute; left: 0; bottom: 0; font-weight: normal; line-height: 1.75rem; color: #fff; text-align: right; }
-.mg-productlist-list2 li { height: 9rem; margin-bottom: 1rem; padding-top: 1rem; border-top: 1px solid #ddd; overflow: hidden; }
-.mg-productlist-list2 li:first-child { border-top: none; }
-.mg-productlist-list2 img { float: left; width: 8.1667rem; }
-.mg-productlist-r1 { padding-left: 1rem; position: relative; overflow: hidden; }
-.mg-productlist-list2 h3 { height: 3.2rem; padding-bottom: 0.5rem; color: #444; font-size: 1.0833rem; line-height: 1.6rem; }
-.mg-productlist-explain { padding-top: 0.5rem; color: #666; line-height: 1.2rem; }
-.mg-productlist-price { position: absolute; right: 0; bottom: 0; text-align: right; }
-.mg-productlist-price strong { display: block; font-size: 0.8333rem; color: #ff7e00; }
-.mg-productlist-price sub { bottom: 0; }
-.mg-productlist-price em { font-size: 1.5833rem; font-style: normal; }
-.mg-productlist-price del { color: #999; }
+.mg-productlist{padding:0 0.8333rem;border-top:1rem solid #ededed;background-color:#fff;}
+.mg-productlist-list1{width:100%;padding-bottom:1rem;border-bottom:1px solid #ddd;}
+.mg-productlist-list1 li a{display:block;width:100%;position:relative;}
+.mg-productlist-list1 strong{display:block;width:100%;height:1.75rem;padding:0 0.5rem;background-color:#000;background:rgba(0,0,0,0.5);position:absolute;left:0;bottom:0;font-weight:normal;line-height:1.75rem;color:#fff;text-align:right;}
+.mg-productlist-list2 li{height:9rem;margin-bottom:1rem;padding-top:1rem;border-top:1px solid #ddd;overflow:hidden;}
+.mg-productlist-list2 li:first-child{border-top:none;}
+.mg-productlist-list2 img{float:left;width:8.1667rem;}
+.mg-productlist-r1{padding-left:1rem;position:relative;overflow:hidden;}
+.mg-productlist-list2 h3{height:3.2rem;padding-bottom:0.5rem;color:#444;font-size:1.0833rem;line-height:1.6rem;}
+.mg-productlist-explain{padding-top:0.5rem;color:#666;line-height:1.2rem;}
+.mg-productlist-price{position:absolute;right:0;bottom:0;text-align:right;}
+.mg-productlist-price strong{display:block;font-size:0.8333rem;color:#ff7e00;}
+.mg-productlist-price sub{bottom:0;}
+.mg-productlist-price em{font-size:1.5833rem;font-style:normal;}
+.mg-productlist-price del{color:#999;}
 
 /* 跟团游详情－－begin */
-.mg-hd-pname { margin-bottom: 1rem; padding: 1rem; background: #fff; }
-.mg-hd-pname h3 { margin-bottom: 1rem; font: normal 1.0834rem/1.2rem "Microsoft Yahei"; color: #454545; }
-.mg-hd-pname-l { float: left; width: 30%; font-size: 1rem; color: #ff7e00; }
-.mg-hd-pname-l em { font-size: 1.5rem; line-height: 3rem; font-style: normal; }
-.mg-hd-pname-l sub { font-size: 1em; line-height: 3rem; }
-.mg-hd-pname-r { float: left; width: 70%; color: #999; }
-.mg-hd-pname-r p { line-height: 1.5rem; }
-.mg-calendar { margin-bottom: 1rem; padding: .5rem; background: #fff; }
-.mg-calendar p { margin-left: 2rem; line-height: 1.6rem; }
-.mg-calendar p span { margin: .5rem .5rem 0 0; }
-.mg-details { overflow: hidden; background: #fff; }
-.mg-details ul { overflow: hidden; line-height: 3rem; }
-.mg-details ul li { float: left; width: 0.0417rem; font-size: 1.1667rem; color: #999; text-align: center; }
-.mg-details ul li:nth-child(2n-1) { width: 33.2%; color: #454545; }
-.mg-details ul li.selected { border-bottom: 1px solid #ff7e00; }
-.mg-details div { min-height: 100px; background: #fff; }
-.mg-details div:nth-child(2) { overflow: hidden; background: #ededed; }
+.mg-hd-pname{margin-bottom:1rem;padding:1rem;background:#fff;}
+.mg-hd-pname h3{margin-bottom:1rem;font:normal 1.0834rem/1.2rem "Microsoft Yahei";color:#454545;}
+.mg-hd-pname-l{float:left;width:30%;font-size:1rem;color:#ff7e00;}
+.mg-hd-pname-l em{font-size:1.5rem;line-height:3rem;font-style:normal;}
+.mg-hd-pname-l sub{font-size:1em;line-height:3rem;}
+.mg-hd-pname-r{float:left;width:70%;color:#999;}
+.mg-hd-pname-r p{line-height:1.5rem;}
+.mg-calendar{margin-bottom:1rem;padding:.5rem;background:#fff;}
+.mg-calendar p{margin-left:2rem;line-height:1.6rem;}
+.mg-calendar p span{margin:.5rem .5rem 0 0;}
+.mg-details{overflow:hidden;background:#fff;}
+.mg-details ul{overflow:hidden;line-height:3rem;}
+.mg-details ul li{float:left;width:0.0417rem;font-size:1.1667rem;color:#999;text-align:center;}
+.mg-details ul li:nth-child(2n-1){width:33.2%;color:#454545;}
+.mg-details ul li.selected{border-bottom:1px solid #ff7e00;}
+.mg-details div{min-height:100px;background:#fff;}
+.mg-details div:nth-child(2){overflow:hidden;background:#ededed;}
 
 /* 跟团游详情－－end */
-.mg-nav { position: fixed; z-index: 10; right: 0; left: 0; bottom: 0; display: table; width: 100%; height: 3.75rem; padding: 0; table-layout: fixed; border: 0; box-shadow: 0 0 1px #3e3e3e; background-color: #3e3e3e; background-color: rgba(62, 62, 62, 0.8); -webkit-touch-callout: none; }
-.mg-nav-item { display: table-cell; overflow: hidden; width: 1%; height: 3.75rem; text-align: center; vertical-align: middle; white-space: nowrap; text-overflow: ellipsis; color: #929292; }
-.mg-nav-label { font-size: 0.9167rem; display: block; overflow: hidden; text-overflow: ellipsis; color: #fff; }
+.mg-nav{position:fixed;z-index:10;right:0;left:0;bottom:0;display:table;width:100%;height:3.75rem;padding:0;table-layout:fixed;border:0;box-shadow:0 0 1px #3e3e3e;background-color:#3e3e3e;background-color:rgba(62,62,62,0.8);-webkit-touch-callout:none;}
+.mg-nav-item{display:table-cell;overflow:hidden;width:1%;height:3.75rem;text-align:center;vertical-align:middle;white-space:nowrap;text-overflow:ellipsis;color:#929292;}
+.mg-nav-label{font-size:0.9167rem;display:block;overflow:hidden;text-overflow:ellipsis;color:#fff;}
 
 /*价格区间*/
-.mg-tips-price { position: fixed; bottom: 0; left: 0; right: 0; width: 100%; z-index: 101; background: #fff; height: 17.9167rem; }
-.mg-tips-price > h4 { height: 3.5rem; line-height: 3.5rem; font-size: 1.215rem; font-weight: normal; text-align: center; border-bottom: 1px solid #ccc; color: #000; }
-.mg-tips-price > h4 span { display: inline-block; float: right; margin-right: 15px; color: #ff7e00; font-size: 1.0992rem; }
-.mg-tips-price .mg-tips-price-content { padding-top: 1.5917rem; text-align: center; }
-.mg-tips-price-content > a { display: inline-block; text-align: center; width: 8rem; height: 2.8333rem; line-height: 2.8333rem; color: #444444; font-size: 0.81rem; border: 1px solid #ccc; margin: 0rem 0.2556rem 1.5917rem; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; }
-.mg-tips-price-content > a.active { border: 1px solid #ff7e00; color: #ff7e00; }
-.mg-tips-price > span { display: block; width: 100%; height: 3.5417rem; line-height: 3.5417rem; text-align: center; border: none; background: none; border-top: 1px solid #ff7e00; color: #ff7e00; font-size: 1.3333rem; }
-.mg-tips-sort { position: fixed; bottom: 0; left: 0; right: 0; width: 100%; z-index: 101; background: #fff; }
-.mg-tips-sort dl { }
-.mg-tips-sort dl dt,
-.mg-tips-sort dl dd { height: 3.5417rem; line-height: 3.5417rem; text-align: center; color: #ff7e00; font-size: 1.2083rem; }
-.mg-tips-sort dl dd { border-top: 1px solid #e9e9e9; color: #000; }
+.mg-tips-price{position:fixed;bottom:0;left:0;right:0;width:100%;z-index:101;background:#fff;height:17.9167rem;}
+.mg-tips-price > h4{height:3.5rem;line-height:3.5rem;font-size:1.215rem;font-weight:normal;text-align:center;border-bottom:1px solid #ccc;color:#000;}
+.mg-tips-price > h4 span{display:inline-block;float:right;margin-right:15px;color:#ff7e00;font-size:1.0992rem;}
+.mg-tips-price .mg-tips-price-content{padding-top:1.5917rem;text-align:center;}
+.mg-tips-price-content > a{display:inline-block;text-align:center;width:8rem;height:2.8333rem;line-height:2.8333rem;color:#444444;font-size:0.81rem;border:1px solid #ccc;margin:0rem 0.2556rem 1.5917rem;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;}
+.mg-tips-price-content > a.active{border:1px solid #ff7e00;color:#ff7e00;}
+.mg-tips-price > span{display:block;width:100%;height:3.5417rem;line-height:3.5417rem;text-align:center;border:none;background:none;border-top:1px solid #ff7e00;color:#ff7e00;font-size:1.3333rem;}
+.mg-tips-sort{position:fixed;bottom:0;left:0;right:0;width:100%;z-index:101;background:#fff;}
+.mg-tips-sort dl{}
+.mg-tips-sort dl dt,.mg-tips-sort dl dd{height:3.5417rem;line-height:3.5417rem;text-align:center;color:#ff7e00;font-size:1.2083rem;}
+.mg-tips-sort dl dd{border-top:1px solid #e9e9e9;color:#000;}
 
 /*筛选*/
-.mg-tips-select { position: fixed; bottom: 0; left: 0; right: 0; width: 100%; z-index: 101; background: #fff; }
-.mg-tips-select > h4 { height: 3.5rem; line-height: 3.5rem; font-size: 1.215rem; font-weight: normal; text-align: center; border-bottom: 1px solid #ccc; color: #000; }
-.mg-tips-select > h4 span { display: inline-block; float: right; margin-right: 15px; color: #ff7e00; font-size: 1.0992rem; }
-.mg-tips-select-content { padding: 0 15px; }
-.mg-tips-select-content > p { height: 3.125rem; line-height: 3.125rem; font-size: 1.0417rem; }
-.mg-tips-select-content > p:nth-of-type(2) { height: 2.125rem; line-height: 2.125rem; position: relative; top: -0.55rem; }
-.mg-tips-select-month { }
-.mg-tips-select-month > a,
-.mg-tips-select-day > a { font-size: 0.8333rem; display: inline-block; text-align: center; width: 4.4167rem; height: 2.8333rem; line-height: 2.8333rem; color: #444444; font-size: 0.81rem; border: 1px solid #ccc; margin: 0rem 0.2556rem 1.0917rem; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; }
-.mg-tips-select-month > a.active,
-.mg-tips-select-day > a.active { border: 1px solid #ff7e00; color: #ff7e00; }
-.mg-tips-select > span { display: block; width: 100%; height: 3.5417rem; line-height: 3.5417rem; text-align: center; border: none; background: none; border-top: 1px solid #ff7e00; color: #ff7e00; font-size: 1.3333rem; }
+.mg-tips-select{position:fixed;bottom:0;left:0;right:0;width:100%;z-index:101;background:#fff;}
+.mg-tips-select > h4{height:3.5rem;line-height:3.5rem;font-size:1.215rem;font-weight:normal;text-align:center;border-bottom:1px solid #ccc;color:#000;}
+.mg-tips-select > h4 span{display:inline-block;float:right;margin-right:15px;color:#ff7e00;font-size:1.0992rem;}
+.mg-tips-select-content{padding:0 15px;}
+.mg-tips-select-content > p{height:3.125rem;line-height:3.125rem;font-size:1.0417rem;}
+.mg-tips-select-content > p:nth-of-type(2){height:2.125rem;line-height:2.125rem;position:relative;top:-0.55rem;}
+.mg-tips-select-month{}
+.mg-tips-select-month > a,.mg-tips-select-day > a{font-size:0.8333rem;display:inline-block;text-align:center;width:4.4167rem;height:2.8333rem;line-height:2.8333rem;color:#444444;font-size:0.81rem;border:1px solid #ccc;margin:0rem 0.2556rem 1.0917rem;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;}
+.mg-tips-select-month > a.active,.mg-tips-select-day > a.active{border:1px solid #ff7e00;color:#ff7e00;}
+.mg-tips-select > span{display:block;width:100%;height:3.5417rem;line-height:3.5417rem;text-align:center;border:none;background:none;border-top:1px solid #ff7e00;color:#ff7e00;font-size:1.3333rem;}
 
 /* 其它页头信息 */
 .mg-pageheader{margin-top:1rem;padding:0.8rem 0.8333rem;background:#fff;}
@@ -102,7 +99,7 @@
 .mg-pageheader-diff strong{color:#010101;font-size:1.1667rem;}
 
 /* 团期页 */
-.mg-date{margin-top:1rem;padding-bottom:4.5rem;}
+.mg-date{padding-bottom:4.5rem;}
 .mg-date-tit{height:3.25rem;line-height:3.25rem;text-align:center;font-size:1.0833rem;}
 .mg-date-tit a{margin:0.7rem 1rem 0;}
 .mg-date-table{padding:0.5rem 0;background:#fff;}
@@ -110,7 +107,7 @@
 .mg-date-table dd{float:left;width:14.2%;height:3rem;margin:0.2rem 0;font-size:1.25rem;text-align:center;line-height:3rem;color:#ccc;}
 .mg-date-table dd span{width:3rem;height:100%;margin:0 auto;display:block;border-radius:50%;color:#444;}
 .mg-date-table dd.mg-sel span{width:3rem;height:100%;margin:0 auto;display:block;border-radius:50%;color:#444;line-height:2.4rem}
-.mg-date-table dd.mg-sel strong{display:block;margin-top:-0.8rem;color:#ff7e00;font-size:0.9167rem;font-weight:normal;line-height:1rem;-moz-transform:scale(0.7);-webkit-transform:scale(0.7);-o-transform:scale(0.7); }
+.mg-date-table dd.mg-sel strong{display:block;margin-top:-0.8rem;color:#ff7e00;font-size:0.9167rem;font-weight:normal;line-height:1rem;-moz-transform:scale(0.7);-webkit-transform:scale(0.7);-o-transform:scale(0.7);}
 .mg-date-table dd.mg-sel span.mg-click{border:1px solid #ff840c;}
 .mg-date-price{background:#fff;margin-top:1rem;}
 .mg-date-price dt{height:2.7083rem;padding:0 1rem;border-bottom:1px solid #ddd;font-size:1.0833rem;line-height:2.7083rem;color:#999;}
@@ -161,3 +158,124 @@
 .mg-prompt-box h3{font-size:1.5833rem;color:#444;line-height:3rem;text-align:center;}
 .mg-prompt-box h4{font-size:1.3333rem;color:#999;text-align:center;font-weight:normal;}
 .mg-prompt-ico{display:block;width:9.1667rem;height:10.25rem;margin:0 auto 1rem;background-position:-23.7917rem -0.8333rem;}
+
+/* 选择城市 */
+.mg-warp-addr{
+    background: #fff;
+}
+.mg-addr-header,.mg-addr-search{
+    position: relative;
+    z-index: 2;
+}
+.mg-addr-search{
+    padding:0.5rem 0.8333rem;
+    background: #e1e1e1;
+}
+
+.mg-addr-search input{
+    width:100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background: #fff;
+    border: none;
+    text-indent: 1rem;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.mg-addr-content{
+    position: relative;
+    overflow: hidden;
+}
+
+.mg-addr-item{
+    padding:0.5rem 0.8333rem;
+    color: #666;
+}
+
+.mg-addr-item > p{
+    color: #666;
+    font-size: 1.1667rem;
+    height: 2.8rem;
+    line-height: 2.8rem;
+    vertical-align: middle;
+}
+
+.mg-addr-item > p a{
+    font-size: 1rem;
+    color: #fba34e;
+    text-decoration:underline;
+    vertical-align: middle;
+    float: right;
+    margin-right: 4rem;
+}
+
+.mg-addr-item > span{
+    display: inline-block;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+    width: 7.0833rem;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 0.8167rem;
+    -moz-border-radius: 0.8167rem;
+    -ms-border-radius: 0.8167rem;
+    -o-border-radius: 0.8167rem;
+    border-radius: 0.8167rem;
+    margin:0 0.8333rem 0.8333rem 0;
+}
+
+.mg-addr-slider{
+    z-index: 1;
+    position: fixed;
+    width: 2.5rem;
+    background: #f2f2f2;
+    height: 80%;
+    top: 8.450rem;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    display:-webkit-box;
+    display:-moz-box;
+    display: box;
+    -webkit-box-orient:vertical;
+    box-orient:vertical;
+}
+
+.mg-addr-slider a{
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    display: block;
+    padding-top: 100%;
+    color: #fba34e;
+    font-size:  1.0833rem;
+    vertical-align: middle;
+}
+
+.mg-add-list{
+    padding:0.5rem 0.8333rem;
+}
+
+.mg-add-list > dl{
+    
+    
+    overflow: hidden;
+}
+
+.mg-add-list > dl dt{
+    height: 2rem;
+    line-height: 2rem;
+    color: #666;
+    font-size: 1rem;
+   
+}
+.mg-add-list > dl dd{
+     height: 2.6rem;
+    line-height: 2.6rem;
+    color: #000;
+    font-size:  1.0833rem;
+}

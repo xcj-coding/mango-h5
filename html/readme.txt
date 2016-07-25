@@ -11,3 +11,5 @@
 跟团游列表：holiday/list.html
 跟团游详情：holiday/details.html
 跟团游团期表：holiday/date.html
+跟团游预定页：holiday/reserve.html
+跟团游无内容提示：holiday/prompt.html

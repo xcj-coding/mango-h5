@@ -90,13 +90,16 @@
 .mg-tips-select > span { display: block; width: 100%; height: 3.5417rem; line-height: 3.5417rem; text-align: center; border: none; background: none; border-top: 1px solid #ff7e00; color: #ff7e00; font-size: 1.3333rem; }
 
 /* 其它页头信息 */
-.mg-pageheader{padding:0.8rem 0.8333rem;background:#fff;}
+.mg-pageheader{margin-top:1rem;padding:0.8rem 0.8333rem;background:#fff;}
 .mg-pageheader h2{font-size:1.1667rem;font-weight:normal;color:#444;}
 .mg-pageheader-price{display:block;font-size:0.8333rem;color:#ff7e00;color:#999;}
 .mg-pageheader-price sub{color:#ff7e00;font-size:1rem;}
 .mg-pageheader-price em{font-size:2.0833rem;font-style:normal;color:#ff7e00;}
 .mg-pageheader-price del{color:#999;}
 .mg-pageheader-explain span{display:block;color:#999;line-height:1.5rem;}
+.mg-pageheader-diff{height:2.9167rem;padding:0 0.8333rem;margin-top:1rem;background-color:#fff;line-height:2.9167rem;}
+.mg-pageheader-diff span{color:#999;}
+.mg-pageheader-diff strong{color:#010101;font-size:1.1667rem;}
 
 /* 团期页 */
 .mg-date{margin-top:1rem;padding-bottom:4.5rem;}
@@ -129,3 +132,32 @@
 .mg-buy-bottom-l strong{font-size:1.75rem;}
 .mg-buy-bottom-r{width:12.25rem;background-color:#ff7467;font-size:1.0833rem;text-align:center;color:#fff;}
 .mg-buy-bottom-r span{font-size:1.3333rem;}
+.mg-detail-btn{display:inline-block;margin:0.2rem 0 0 0.5rem;font-size:1.1667rem;color:#fff;text-decoration:underline;}
+
+/* 预定表单 */
+.mg-reserve{margin-top:1rem;background-color:#fff;}
+.mg-form1{font-size:1.0833rem;}
+.mg-form1 dd,.mg-form1 dt{height:2.625rem;padding:0 0.8333rem;line-height:2.625rem;}
+.mg-form1 dt{color:#999;}
+.mg-form1 dd{padding-left:5.2083rem;border-top:1px solid #efefef;}
+.mg-form1 dd input{width:100%;height:1.2rem;border:none;line-height:1.2rem;}
+.mg-form1 dd label{display:inline-block;width:3.75rem;margin-left:-3.75rem;}
+.mg-notice{display:block;width:100%;height:2.4rem;position:fixed;bottom:4.5rem;line-height:2.4rem;text-align:center;}
+.mg-notice a{display:inline-block;text-decoration:underline;margin-left:0.5rem;}
+
+/* 费用明细 */
+.mg-detail-msg{display:none;width:100%;padding-bottom:1rem;background:#fff;position:fixed;z-index:110;bottom:4.5rem;left:0;}
+.mg-detail-msg h2{height:2.625rem;padding:0 0.8333rem;background-color:#efefef;line-height:2.625rem;font-weight:normal;font-size:1.3333rem;}
+.mg-detail-msg h3,.mg-detail-msg li,.mg-detail-msg p{padding:0 0.8333rem;height:2rem;line-height:2rem;}
+.mg-detail-msg h3{margin-top:0.8rem;font-size:1.0833rem;}
+.mg-detail-msg li strong,.mg-detail-msg li span{display:inline-block;line-height:2rem;}
+.mg-detail-msg li strong{width:40%;}
+.mg-detail-msg li span{width:30%;color:#ff7e00;}
+.mg-detail-msg p{color:#999;}
+
+/* 暂无内容 */
+.mg-prompt-warp{position:fixed;width:100%;height:100%;background-color:#fff;}
+.mg-prompt-box{width:100%;height:18rem;position:absolute;top:50%;left:0;margin-top:-11rem;}
+.mg-prompt-box h3{font-size:1.5833rem;color:#444;line-height:3rem;text-align:center;}
+.mg-prompt-box h4{font-size:1.3333rem;color:#999;text-align:center;font-weight:normal;}
+.mg-prompt-ico{display:block;width:9.1667rem;height:10.25rem;margin:0 auto 1rem;background-position:-23.7917rem -0.8333rem;}

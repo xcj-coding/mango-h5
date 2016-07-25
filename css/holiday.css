@@ -102,7 +102,7 @@
 .mg-pageheader-diff strong{color:#010101;font-size:1.1667rem;}
 
 /* 团期页 */
-.mg-date{margin-top:1rem;padding-bottom:4.5rem;}
+.mg-date{padding-bottom:4.5rem;}
 .mg-date-tit{height:3.25rem;line-height:3.25rem;text-align:center;font-size:1.0833rem;}
 .mg-date-tit a{margin:0.7rem 1rem 0;}
 .mg-date-table{padding:0.5rem 0;background:#fff;}

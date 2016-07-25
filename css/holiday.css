@@ -114,9 +114,9 @@
 .mg-date-price dd{height:4rem;padding:0 1rem;border-bottom:1px solid #ccc;line-height:4rem;font-size:1.0833rem;color:#444;}
 .mg-date-difference{color:#ff7467;}
 .mg-date-difference em{margin-bottom:0.3rem;}
-.mg-date-count{width:7.5rem;height:2.1667rem;margin:0.9rem 0 0 1rem;border:1px solid #a6a6a6;border-radius:0.2rem;position:relative;overflow:hidden;text-align:center;line-height:2.1667rem;}
+.mg-date-count{width:7.5rem;height:2.1667rem;margin:0.9rem 0 0 1rem;border-top:1px solid #a6a6a6;border-bottom:1px solid #a6a6a6;border-radius:0.2rem;position:relative;overflow:hidden;text-align:center;line-height:2.1667rem;}
 .mg-date-count strong{font-size:1.25rem;font-weight:normal;}
-.mg-date-count a{display:inline-block;width:2.1667rem;height:2.1667rem;background-color:#efefef;position:absolute;top:0;line-height:2rem;text-align:center;}
+.mg-date-count a{display:inline-block;width:2.1667rem;height:2.1667rem;border-right:1px solid #a6a6a6;border-left:1px solid #a6a6a6;background-color:#efefef;position:absolute;top:0;line-height:2rem;text-align:center;}
 .mg-date-count a:nth-child(1){left:0;}
 .mg-date-count a:nth-child(3){right:0;}
 .mg-date-price .ml12{margin-left:0.5rem;}

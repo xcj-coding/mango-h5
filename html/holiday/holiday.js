@@ -17,3 +17,8 @@ var swiperlmzq = new Swiper('.mg-hd-swiper',{
 	loop: true,
 	autoplay: 3000
 });
+
+$(".mg-sel").on("tap",function(){
+	$(".mg-sel").find("span").removeClass('mg-click');
+	$(this).find("span").addClass('mg-click');
+})

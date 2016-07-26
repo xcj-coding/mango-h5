@@ -25,19 +25,14 @@ $(".mg-sel").on("tap",function(){
 
 $(".mg-detail-btn").on("tap",function(){
 	var ONOFF=$(this).attr("onoff");
+	console.log(ONOFF);
 	if(ONOFF!="on"){
 		$(this).attr("onoff","on");
-		$(".mg-detail-msg").css("bottom","-10rem");
-		$("body").append('<div class="mg-mark-black"></div>');
-		$(".mg-detail-msg").show().animate({
-			"bottom":"4.5rem"
-		});
+		$("body").append('<div class="mg-mark-black mg-fadeIn"></div>');
+		$(".mg-detail-msg").show().removeClass("mg-fadeOutRight").addClass("mg-fadeInRight");
 	}else{
 		$(this).attr("onoff","off");
-		$(".mg-detail-msg").css("bottom","4.5rem");
-		$(".mg-detail-msg").show().animate({
-			"bottom":"-10rem"
-		});
+		$(".mg-detail-msg").removeClass("mg-fadeInRight").addClass("mg-fadeOutRight");
 		$(".mg-mark-black").remove();
 		
 	}

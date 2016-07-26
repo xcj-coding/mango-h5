@@ -148,3 +148,37 @@ a{background-color:transparent;-webkit-text-decoration-skip:objects;text-decorat
 .mg-header-search input::-ms-input-placeholder{background:url(/i/search.png) no-repeat 0 0.1rem/1.25rem 1.25rem;text-indent:1.5rem;color:#ccc;}
 .mg-header-area{padding:0 0.5rem;color:#ff7e00;font-size:1.0834rem;}
 .mg-header-area em{margin-left:0.5rem;}
+
+div.test123
+{
+	position: fixed;
+	left:0;
+	animation:myfirst 1s;
+	-moz-animation:myfirst 1s; /* Firefox */
+	-webkit-animation:myfirst 1s; /* Safari and Chrome */
+	-o-animation:myfirst 1s; /* Opera */
+}
+
+@keyframes myfirst
+{
+from {left:100%;}
+to {left:0;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {left:100%;}
+to {left:0;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {left:100%;}
+to {left:0;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {left:100%;}
+to {left:0;}
+}

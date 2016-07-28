@@ -248,7 +248,8 @@ a{background-color:transparent;-webkit-text-decoration-skip:objects;text-decorat
 /* swiper图片切换 */
 .mg-swiper{overflow:hidden;width:100%;border-bottom:1px solid #eaeaea;position:relative;}
 .mg-swiper-bx{width:50000rem;}
-.mg-swiper-img{float:left;display:none;width:100%;z-index:10;}
+.mg-swiper-img{float:left;display:none;width:100%;height:14.55rem;z-index:10;}
+.mg-swiper-img .mg-img{height:14.55rem;}
 .mg-swiper-ico{width:100%;height:2.4167rem;position:absolute;z-index:20;bottom:0;left:0;text-align:center;line-height:2.4167rem;}
 .mg-swiper-ico span{display:inline-block;width:0.8rem;height:0.8rem;margin:0 0.2rem;border:1px solid #fff;border-radius:100%;vertical-align:middle;}
 .mg-swiper-ico span.mg-swiper-active{background-color:#fff;}

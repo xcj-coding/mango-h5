@@ -7,8 +7,7 @@
 .mg-hot-img img{display:block;width:100%;height:14.5417rem;}
 .mg-hot-img h4{width:100%;height:3rem;padding:0 0.5rem;background-color:#000;background:rgba(0,0,0,0.5);position:absolute;left:0;bottom:0;color:#fff;font:normal 1rem/3rem "Microsoft Yahei";}
 .mg-hot-box h2{height:3rem;margin:0.6rem 0 0.4rem;}
-.mg-hot-box h2 a{display:block;height:3rem;color:#454545;font-size:1.0834rem;font-weight:normal;line-height:1.5rem;text-overflow:-o-ellipsis-lastline;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;
--webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.mg-hot-box h2 a{display:block;height:3rem;color:#454545;font-size:1.0834rem;font-weight:normal;line-height:1.5rem;text-overflow:-o-ellipsis-lastline;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
 .mg-hot-tag em{margin-right:0.5rem;}
 .mg-hot-explain{padding-top:2rem;color:#666;font-size:0.9167rem;}
 .mg-hot-b{width:100%;}
@@ -32,8 +31,7 @@
 .mg-productlist-list2 li:first-child{height:7.4rem;padding-top:0;border-top:none;}
 .mg-productlist-list2 .mg-img{float:left;width:8.5rem;height:6.4rem;}
 .mg-productlist-r1{height:6.4rem;padding-left:1rem;position:relative;overflow:hidden;}
-.mg-productlist-list2 h3{height:3rem;margin-bottom:0.5rem;color:#444;font-size:1.0833rem;line-height:1.5rem;text-overflow:-o-ellipsis-lastline;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;
--webkit-line-clamp:2;-webkit-box-orient:vertical;font-weight:normal;}
+.mg-productlist-list2 h3{height:3rem;margin-bottom:0.5rem;color:#444;font-size:1.0833rem;line-height:1.5rem;text-overflow:-o-ellipsis-lastline;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;font-weight:normal;}
 .mg-productlist-explain{color:#666;line-height:1.2rem;}
 .mg-productlist-price{position:absolute;right:0;bottom:0;text-align:right;}
 .mg-productlist-price strong{display:block;font-size:0.8333rem;color:#ff7e00;}
@@ -76,10 +74,31 @@
 .mg-tips-price-content > a{display:inline-block;text-align:center;width:8rem;height:2.8333rem;line-height:2.8333rem;color:#444444;font-size:0.81rem;border:1px solid #ccc;margin:0rem 0.2556rem 1.5917rem;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;}
 .mg-tips-price-content > a.active{border:1px solid #ff7e00;color:#ff7e00;}
 .mg-tips-price > span{display:block;width:100%;height:3.5417rem;line-height:3.5417rem;text-align:center;border:none;background:none;border-top:1px solid #ff7e00;color:#ff7e00;font-size:1.3333rem;}
+
+/*综合排序*/
 .mg-tips-sort{position:fixed;bottom:0;left:0;right:0;width:100%;z-index:101;background:#fff;}
 .mg-tips-sort dl{}
 .mg-tips-sort dl dt,.mg-tips-sort dl dd{height:3.5417rem;line-height:3.5417rem;text-align:center;color:#ff7e00;font-size:1.2083rem;}
 .mg-tips-sort dl dd{border-top:1px solid #e9e9e9;color:#000;}
+.mg-tips-sort dl dd.active{color:#ff7e00;}
+.mg-mask-opin{-webkit-animation:opin .3s linear forwards;animation:opin .3s linear forwards;}
+.mg-tips-up{-webkit-animation:priceup .5s linear forwards;animation:priceup .5s linear forwards;}
+@-webkit-keyframes opin{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+@keyframes opin{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+@-webkit-keyframes priceup{
+    0%{bottom:-100%;}
+    100%{bottom:0%;}
+}
+@keyframes priceup{
+    0%{bottom:-100%;}
+    100%{bottom:0%;}
+}
 
 /*筛选*/
 .mg-tips-select{position:fixed;bottom:0;left:0;right:0;width:100%;z-index:101;background:#fff;}

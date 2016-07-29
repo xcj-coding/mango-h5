@@ -16,7 +16,7 @@ sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
 
 /*sup{top:-0.5rem;}*/
 hr{box-sizing:content-box;height:0;overflow:visible;}
-a{background-color:transparent;-webkit-text-decoration-skip:objects;text-decoration:none;}
+a{background-color:transparent;-webkit-text-decoration-skip:objects;text-decoration:none;color:#454545;}
 
 /*** 公共类样式 ***/
 

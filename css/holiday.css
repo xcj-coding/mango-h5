@@ -23,6 +23,7 @@
 /* 产品列表，如：出境跟团游，国内跟团游 */
 .mg-productlist{padding:0 0.8333rem;border-top:1rem solid #ededed;background-color:#fff;}
 .mg-productlist-list1{width:100%;padding-bottom:1rem;margin-bottom:1rem;border-bottom:1px solid #ddd;}
+.mg-productlist-list1 li{height:7.6667rem;}
 .mg-productlist-list1 li a{display:block;width:100%;height:100%;position:relative;}
 .mg-productlist-list1 strong{display:block;width:100%;height:1.75rem;padding:0 0.5rem;background-color:#000;background:rgba(0,0,0,0.5);position:absolute;left:0;bottom:0;font-weight:normal;line-height:1.75rem;color:#fff;text-align:right;}
 .mg-productlist-list2{padding-bottom:0.5rem;}

@@ -75,51 +75,26 @@
 /*综合排序*/
 .mg-tips-sort{position:fixed;bottom:0;left:0;right:0;width:100%;z-index:101;background:#fff;}
 .mg-tips-sort dl{}
-
 .mg-tips-sort dl dt,.mg-tips-sort dl dd{height:3.5417rem;line-height:3.5417rem;text-align:center;color:#ff7e00;font-size:1.2083rem;}
 .mg-tips-sort dl dd{border-top:1px solid #e9e9e9;color:#000;}
 .mg-tips-sort dl dd.active{color:#ff7e00;}
-.mg-mask-opin{
-    -webkit-animation: opin .3s linear forwards;
-    animation: opin .3s linear forwards;
+.mg-mask-opin{-webkit-animation:opin .3s linear forwards;animation:opin .3s linear forwards;}
+.mg-tips-up{-webkit-animation:priceup .5s linear forwards;animation:priceup .5s linear forwards;}
+@-webkit-keyframes opin{
+    0%{opacity:0;}
+    100%{opacity:1;}
 }
-.mg-tips-up{
-    -webkit-animation: priceup .5s linear forwards;
-    animation: priceup .5s linear forwards;
+@keyframes opin{
+    0%{opacity:0;}
+    100%{opacity:1;}
 }
-
-@-webkit-keyframes opin {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+@-webkit-keyframes priceup{
+    0%{bottom:-100%;}
+    100%{bottom:0%;}
 }
-@keyframes opin {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes priceup {
-    0% {
-        bottom: -100%;
-    }
-    100% {
-        bottom: 0%;
-    }
-}
-@keyframes priceup {
-    0% {
-        bottom: -100%;
-    }
-    100% {
-        bottom: 0%;
-    }
+@keyframes priceup{
+    0%{bottom:-100%;}
+    100%{bottom:0%;}
 }
 
 /*筛选*/

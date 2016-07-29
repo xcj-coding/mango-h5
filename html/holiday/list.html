@@ -41,10 +41,10 @@
 				<ul class="mg-productlist-list2">
 					<li>
 						<a class="cf" href="">
-							<img src="/i/holiday/img3.jpg" alt="" />
+							<span class="mg-img"><img src="/i/holiday/img3.jpg" alt="" /></span>
 							<div class="mg-productlist-r1">
 								<h3>新西兰 南岛4日美食精华游（每周二出发）+海洋公园餐券</h3>
-								<p class="mg-hot-tag"><em class="mg-tag1">特价</em><em class="mg-tag2">早定</em></p>
+								<!-- <p class="mg-hot-tag"><em class="mg-tag1">特价</em><em class="mg-tag2">早定</em></p> -->
 								<p class="mg-productlist-explain">出发城市 :  深圳、北京<br/>出发日期：天天出发</p>
 								<div class="mg-productlist-price">
 									<strong><sub>￥</sub><em>760</em> 起</strong>
@@ -55,10 +55,10 @@
 					</li>
 					<li>
 						<a class="cf" href="">
-							<img src="/i/holiday/img3.jpg" alt="" />
+							<span class="mg-img"><img src="/i/holiday/img3.jpg" alt="" /></span>
 							<div class="mg-productlist-r1">
 								<h3>新西兰 南岛4日美食精华游（每周二出发）+海洋公园餐券</h3>
-								<p class="mg-hot-tag"><em class="mg-tag1">特价</em><em class="mg-tag2">早定</em></p>
+								<!-- <p class="mg-hot-tag"><em class="mg-tag1">特价</em><em class="mg-tag2">早定</em></p> -->
 								<p class="mg-productlist-explain">出发城市 :  深圳、北京<br/>出发日期：天天出发</p>
 								<div class="mg-productlist-price">
 									<strong><sub>￥</sub><em>760</em> 起</strong>
@@ -69,10 +69,10 @@
 					</li>
 					<li>
 						<a class="cf" href="">
-							<img src="/i/holiday/img3.jpg" alt="" />
+							<span class="mg-img"><img src="/i/holiday/img3.jpg" alt="" /></span>
 							<div class="mg-productlist-r1">
 								<h3>新西兰 南岛4日美食精华游（每周二出发）+海洋公园餐券</h3>
-								<p class="mg-hot-tag"><em class="mg-tag1">特价</em><em class="mg-tag2">早定</em></p>
+								<!-- <p class="mg-hot-tag"><em class="mg-tag1">特价</em><em class="mg-tag2">早定</em></p> -->
 								<p class="mg-productlist-explain">出发城市 :  深圳、北京<br/>出发日期：天天出发</p>
 								<div class="mg-productlist-price">
 									<strong><sub>￥</sub><em>760</em> 起</strong>
@@ -83,10 +83,10 @@
 					</li>
 					<li>
 						<a class="cf" href="">
-							<img src="/i/holiday/img3.jpg" alt="" />
+							<span class="mg-img"><img src="/i/holiday/img3.jpg" alt="" /></span>
 							<div class="mg-productlist-r1">
 								<h3>新西兰 南岛4日美食精华游（每周二出发）+海洋公园餐券</h3>
-								<p class="mg-hot-tag"><em class="mg-tag1">特价</em><em class="mg-tag2">早定</em></p>
+								<!-- <p class="mg-hot-tag"><em class="mg-tag1">特价</em><em class="mg-tag2">早定</em></p> -->
 								<p class="mg-productlist-explain">出发城市 :  深圳、北京<br/>出发日期：天天出发</p>
 								<div class="mg-productlist-price">
 									<strong><sub>￥</sub><em>760</em> 起</strong>
@@ -97,10 +97,10 @@
 					</li>
 					<li>
 						<a class="cf" href="">
-							<img src="/i/holiday/img3.jpg" alt="" />
+							<span class="mg-img"><img src="/i/holiday/img3.jpg" alt="" /></span>
 							<div class="mg-productlist-r1">
 								<h3>新西兰 南岛4日美食精华游（每周二出发）+海洋公园餐券</h3>
-								<p class="mg-hot-tag"><em class="mg-tag1">特价</em><em class="mg-tag2">早定</em></p>
+								<!-- <p class="mg-hot-tag"><em class="mg-tag1">特价</em><em class="mg-tag2">早定</em></p> -->
 								<p class="mg-productlist-explain">出发城市 :  深圳、北京<br/>出发日期：天天出发</p>
 								<div class="mg-productlist-price">
 									<strong><sub>￥</sub><em>760</em> 起</strong>
@@ -134,9 +134,9 @@
         </nav>
         <!-- nav end-->
         <!-- 遮罩 -->
-        <div class="mg-mark mg-mark-black"></div>
+        <div class="mg-mark mg-mark-black" style="display:none;"></div>
         <!-- 目的地选择 -->
-        <section class="mg-tips-address" >
+        <section class="mg-tips-address" style="display:none;">
             <h4>价格区间 <span>清除全部</span> </h4>
             <div class="mg-tips-price-content">
                 <a href="#" class="active">不限</a>
@@ -233,6 +233,11 @@
                 }
                 
             });
+
+            $(".mg-mark").on("tap",function(){
+                $('.mg-mark').hide();
+                $(".mg-tips-price,.mg-tips-sort,.mg-tips-select").hide();
+            })
         })
     </script>
 </body>

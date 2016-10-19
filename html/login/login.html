@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <title>登录页</title>
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/login.css">
+    
+</head>
+<body>
+    <div class="mg-warp">
+        <!-- 页头 start -->
+        <header class="mg-header">
+            <a class="mg-header-close" href="javascript:history.back(-1);"><em class="mg-ico-sjl"></em></a>
+            <h1>用户登录</h1>
+            <div class="mg-header-search" style="display:none;">
+            	<strong>跟团游</strong>
+            	<input type="text" placeholder="目的地或关键字" />
+            </div>
+            <div class="mg-header-r">
+            	<a class="mg-header-area" style="display:none;" href=""><spam>深圳</spam><em class="mg-ico-sjb"></em></a>
+            	<a class="mg-header-btn" style="display:none;" href="javascript:;"><em class="mg-bgs mg-ico-share"></em></a> 
+            	<a class="mg-header-btn" style="display:none;" href="javascript:;"><em class="mg-bgs mg-ico-collect"></em></a>
+            	<a class="mg-bgs mg-ico-home" style="display:none;" href="javascript:;"></a>
+            </div>
+        </header>
+        <!-- 页头 end -->
+        <!-- 登录头像 start -->
+        <section class="mg-login-head">
+            <div class="mg-login-headerportrait mg-login-yellow"><img src="../../i/login-head-yellow.png" width="100%"></div>
+            <div class="mg-login-nav mg-g">
+                <a class="mg-col" href="javascript:;">账号登录</a>
+                <a class="mg-col" href="javascript:;">用户注册</a>
+                <em></em>
+            </div>
+        </section>
+        <!-- 登录头像 end -->
+        <!-- 表单登录 start -->
+		<section class="mg-login-form">
+            <dl>
+                <dd><label>手机号</label><input type="text" name="" placeholder="请输入手机号" /></dd>
+                <dd><label>密码</label><input type="text" name="" placeholder="请输入6-12位密码" /></dd>
+            </dl>
+            <div class="mg-login-btn"><a href="javascript:;">登录</a></div>
+            <div class="mg-login-forget"><a href="forget.html">忘记密码</a></div>
+        </section>
+        <!-- 表单登录 end -->
+        <!-- 表单注册 start -->
+        <section class="mg-login-form" style="display:none;">
+            <dl>
+                <dd><label>手机号</label><input type="text" name="" placeholder="请输入手机号" /></dd>
+                <dd><label>验证码</label><input type="text" name="" placeholder="请输入验证码" /><em class="mg-login-code">点击获取验证码</em><em class="mg-login-code-gary" style="display:none;"><span>51</span>s后重新获取</em></dd>
+                <dd><label>密码</label><input type="password" name="" placeholder="请输入6-12位密码" /><em class="mg-bgs mg-login-lock"></em></dd>
+            </dl>
+            <div class="mg-login-btn"><a href="javascript:;">注册并登录</a></div>
+        </section>
+        <!-- 表单注册 end -->
+    </div>
+    <script type="text/javascript" src="/js/zepto.min.js"></script>
+    <script type="text/javascript" src="login.js"></script>
+</body>
+</html>

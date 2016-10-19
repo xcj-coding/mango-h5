@@ -1,0 +1,42 @@
+body{background:#fff;}
+.ued-tit{width:100%;height:50px;position:fixed;top:0;left:0;text-align:center;border-bottom:1px solid #0b6fa2;background-color:#0e90d2;line-height:50px;color:#fff;}
+.ued-main{position:fixed;top:50px;left:0;width:100%;height:100%;overflow:scroll;background:#fff;}
+.ued-nav{width:240px;height:100%;padding-top:10px;background-color:#fafafa;border-right:1px solid #f0f0f0;}
+.ued-nav a{display:block;width:100%;height:40px;line-height:40px;color:#777;text-indent:12px;font-size:14px;}
+.ued-nav a:hover{text-decoration:none;background-color:#f0f0f0;}
+.ued-warp{margin:0 20px 20px 270px;}
+.ued-box{display:none;color:#666;line-height:26px;}
+.ued-box .red{color:red;}
+.ued-box .mb20{margin-bottom:20px;}
+.ued-warp h2.h2{height:50px;margin:10px 0 20px;border-bottom:1px solid #eee;font:normal 20px/50px "Microsoft Yahei";}
+.ued-warp h3.h3{font:bold 16px/30px "Microsoft Yahei";}
+.ued-warp h4.h4{color:red;font-size:14px;}
+.rempx dd{margin-bottom:15px;}
+.rempx label{display:inline-block;width:80px;margin-right:10px;text-align:right;}
+.rempx input{width:100px;border:none;border-bottom:1px solid #cdcdcd;text-align:center;font-size:14px;}
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.ml-10{margin-left:-10px;}
+.cf{display:inline;}
+
+#nav3-box .mg-g{width:500px;padding:5px;border:1px solid #6c6c6c;}
+#nav3-box .mg-col{height:50px;border:1px solid #e7b300;line-height:50px;text-align:center;}
+
+.ico-box{float:left;width:90px;height:90px;background-color:#ececec;margin:10px;border:1px dashed #dedede;text-align:center;line-height:100px;}
+
+.ued-h2{width:500px;}
+.ued-h2 h2{margin-top:10px;}
+
+.com-btn1{width:100%;padding:1rem;}
+.com-btn1 li{width:30%;height:30px;margin:5px 0 0 5px;}
+.com-btn1 a{display:inline-block;width:100%;height:2rem;background-color:#ff7e01;border-radius:0.3rem;text-align:center;line-height:2rem;color:#fff;}
+.w350{width:350px;]}
+
+@media screen and (max-width: 750px) {
+    .ued-nav{width:100%;height:auto;border:none;border-bottom:1px solid #f0f0f0;padding-top:0;text-align:center;}
+    .ued-warp{float:left;width:100%;padding:20px 20px 150px;margin:0;}
+}
+@media screen and (max-width: 500px) {
+    .mg-g,.ued-h2{width:100%;}
+
+}

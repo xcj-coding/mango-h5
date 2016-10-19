@@ -1,0 +1,30 @@
+/*.mg-address-select {position:fixed;top:0;width:100%;height:100%;background-color:#fff;overflow-y:scroll;}*/
+.mg-address-select {width:100%;height:100%;background-color:#fff;overflow-y:scroll;}
+/*position:fixed;top:0;*/
+.mg-addressSearch {position:relative;padding:.5rem .75rem;background-color:#eee;}
+.mg-addressSearch input {width:100%;height:2rem;line-height:2rem;padding:0 .5rem;box-sizing:border-box;}
+.mg-addressSearchList {position:absolute;top:3rem;left:0;width:100%;height:auto;overflow:hidden;}
+.mg-addressSearchList h3 {height:1.5rem;line-height:1.5rem;padding:0 .5rem;background-color:#eee;font-weight:normal;font-size:1rem;}
+.mg-addressSearchList ul {padding:0 .5rem;background-color:#fff;}
+.mg-addressSearchList ul li {width:100%;height:2.75rem;line-height:2.75rem;}
+.mg-addressSearchList ul li a {display:inline-block;width:100%;}
+
+.mg-addressList {padding:.5rem 3rem .5rem 1rem;border-bottom:1.5rem solid #eee;}
+.mg-addressList-last {border-bottom:none;}
+.mg-addressList p {height:1.5rem;line-height:1.5rem;font-size:1rem;font-weight:bold;color:#555;}
+.mg-addressList ul {padding-top:.5rem; overflow:hidden;}
+.mg-addressList ul li {float:left;margin:0 1rem .5rem 0;}
+.mg-addressList ul li a {display:inline-block;padding:.5rem 1rem;border:1px solid #ccc;border-radius:.25rem;}
+
+.mg-addressHistory-rm {float:right;color:red;}
+
+.mg-addressListData {}
+.mg-addressListData-cont {}
+.mg-addressListData-cont h3 {height:1.5rem;line-height:1.5rem;padding:0 .5rem;background-color:#eee;opacity:.5;font-weight:normal;font-size:1rem;}
+.mg-addressListData-cont ul {padding:0 .5rem;}
+.mg-addressListData-cont ul li {height:2.75rem;line-height:2.75rem;}
+.mg-addressListData-cont ul li a {display:inline-block;width:100%;}
+
+.mg-addressNav {display:table;position:fixed;top:0;right:0;width:2rem;height:100%;background-color:#eee;text-align:center;}
+.mg-addressNav ul {display:table-cell;vertical-align:middle;}
+.mg-addressNav ul li {height:1.75rem;line-height:1.5rem;}

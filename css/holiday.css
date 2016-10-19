@@ -1,0 +1,206 @@
+.mg-pb1{padding-bottom:4.5rem;}
+
+/* 热卖专区－－begin */
+.mg-hot{padding:0 0.8333rem;border-top:1rem solid #ededed;background-color:#fff;}
+.mg-hot-swiper{width:100%;padding-bottom:2rem;position:relative;overflow:hidden;}
+.mg-hot-list{width:50000rem;overflow:hidden;}
+.mg-hot-box{float:left;}
+.mg-hot-img{display:block;width:100%;height:14.5417rem;position:relative;}
+.mg-hot-img img{display:block;width:100%;height:14.5417rem;}
+.mg-hot-img h4{width:100%;height:3rem;padding:0 0.5rem;background-color:#000;background:rgba(0,0,0,0.5);position:absolute;left:0;bottom:0;color:#fff;font:normal 1rem/3rem "Microsoft Yahei";}
+.mg-hot-box h2{height:3rem;margin:0.6rem 0 0.4rem;}
+.mg-hot-box h2 a{display:block;height:3rem;color:#454545;font-size:1.0834rem;font-weight:normal;line-height:1.5rem;text-overflow:-o-ellipsis-lastline;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.mg-hot-tag em{margin-right:0.5rem;}
+.mg-hot-explain{padding-top:2rem;color:#666;font-size:0.9167rem;}
+.mg-hot-b{width:100%;}
+.mg-hot-price{text-align:right;}
+.mg-hot-price strong{display:block;color:#ff7e00;}
+.mg-hot-price strong sub{bottom:0;}
+.mg-hot-price strong em{font-size:1.5833rem;font-style:normal;}
+.mg-hot-price del{color:#999;}
+.mg-hot-ico{width:100%;height:2.4167rem;position:absolute;z-index:20;bottom:0;left:0;text-align:center;line-height:2.4167rem;}
+.mg-hot-ico span{display:inline-block;width:0.6rem;height:0.6rem;margin:0 0.2rem;background:#b0b0b0;border-radius:100%;vertical-align:middle;}
+.mg-hot-ico span.mg-hot-active{background-color:#ff7e00;}
+/* 热卖专区－－end */
+
+/* 产品列表，如：出境跟团游，国内跟团游－－begin */
+.mg-productlist,.mg-productlist2{padding:0 0.8333rem;border-top:1rem solid #ededed;background-color:#fff;}
+.mg-productlist2{padding-top:1rem;padding-bottom:4rem;}
+.mg-productlist-list1{width:100%;padding-bottom:1rem;margin-bottom:1rem;border-bottom:1px solid #ddd;}
+.mg-productlist-list1 li{height:7.6667rem;}
+.mg-productlist-list1 li a{display:block;width:100%;height:100%;position:relative;}
+.mg-productlist-list1 strong{display:block;width:100%;height:1.75rem;padding:0 0.5rem;background-color:#000;background:rgba(0,0,0,0.5);position:absolute;left:0;bottom:0;font-weight:normal;line-height:1.75rem;color:#fff;text-align:right;}
+.mg-productlist-list2{padding-bottom:0.5rem;}
+.mg-productlist-list2 li{height:8.4rem;padding-top:1rem;border-top:1px solid #ddd;}
+.mg-productlist-list2 li:first-child{height:7.4rem;padding-top:0;border-top:none;}
+.mg-productlist-list2 .mg-img{float:left;width:8.5rem;height:6.4rem;}
+.mg-productlist-r1{height:6.4rem;padding-left:1rem;position:relative;overflow:hidden;}
+.mg-productlist-list2 h3{max-height:3rem;margin-bottom:0.5rem;color:#444;font-size:1.0833rem;line-height:1.5rem;text-overflow:-o-ellipsis-lastline;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;font-weight:normal;}
+.mg-productlist-list2 h3 span{color:#444;font-style:normal;font-size:0.9167rem;}
+.mg-productlist-list2 h3 em{font-style:normal;font-size:0.9167rem;color:#999;}
+.mg-productlist-explain span{display:block;color:#666;line-height:1.6rem;}
+.mg-productlist-explain span.mg-ellipsis{padding-right:7rem;}
+.mg-productlist-price{position:absolute;right:0;bottom:0;text-align:right;}
+.mg-productlist-price strong{display:block;font-size:0.8333rem;color:#ff7e00;}
+.mg-productlist-price sub{bottom:0;}
+.mg-productlist-price em{font-size:1.5833rem;font-style:normal;}
+.mg-productlist-price del{color:#999;}
+.morePage{display:block;width:100%;padding-top:0.5rem;border-top:1px solid #ddd;color:#ff7e00;text-align:center;line-height:3.5rem;font-size:1.2rem;}
+/* 产品列表，如：出境跟团游，国内跟团游－－end */
+
+/* 跟团游列表－－begin */
+.mg-list{margin-top:1rem;padding:1rem 1rem 0;background:#fff}
+
+.mg-list-nav {position:fixed;z-index:10;left:0;bottom:0;width:100%;background-color:rgba(62,62,62,0.8);}
+.mg-list-nav > a {height:4.5rem;padding:0.75rem 0 0!important;text-align:center;}
+.mg-list-nav-label{font-size:0.9167rem;color:#fff;}
+
+.mg-list-nav-tips{position:fixed;left:0;bottom:0;z-index:101;width:100%;padding-bottom:3.5rem;background:#fff;}
+
+.mg-list-nav-tips > h4{position:relative;height:3.5rem;line-height:3.5rem;font-size:1.215rem;font-weight:normal;text-align:center;color:#000;border-bottom:1px solid #ccc;}
+.mg-list-nav-tips > h4 span{position:absolute;top:0;right:1rem;color:#ff7e00;font-size:1.0992rem;}
+.mg-list-nav-tips .tips-content {overflow:hidden;}
+.mg-list-nav-tips > p {position:fixed;left:0;bottom:0;width:100%;height:3.5rem;line-height:3.5rem;font-size:1.3333rem;color:#ff7e00;text-align:center;border-top:1px solid #ff7e00;}
+.mg-list-nav-tips .tips-title {width:100%;height:2rem;line-height:2rem;padding:0 1rem;overflow:hidden;box-sizing:border-box;}
+
+.tips-price {padding:1rem;overflow: hidden;}
+.tips-price li {float:left;width:33.3333%;padding:0.5rem;box-sizing:border-box;}
+.tips-price li a {display:inline-block;width:100%;height:3rem;line-height:3rem;padding:0 0.5rem;overflow: hidden;color:#444;font-size:1rem;text-align:center;border:1px solid #ccc;-webkit-border-radius:4px;-moz-border-radius:4px;-o-border-radius:4px;border-radius:4px;}
+.tips-price li a.selected {border:1px solid #ff7e00;color:#ff7e00;}
+
+.tips-sort {}
+.tips-sort li {width:100%;height:4rem;border-top:1px solid #ccc;}
+.tips-sort li a {display:inline-block;width:100%;height:4rem;line-height:4rem;padding:0 1rem;overflow:hidden;box-sizing:border-box;text-align:center;}
+.tips-sort li a.selected {color:#ff7e00;}
+
+.tips-time {float:left;}
+.tips-time li {float:left;width:33.3333%;padding:0.5rem;box-sizing:border-box;}
+.tips-time li a {display:inline-block;width:100%;height:3rem;line-height:3rem;padding:0 0.5rem;overflow: hidden;color:#444;font-size:1rem;text-align:center;border:1px solid #ccc;-webkit-border-radius:4px;-moz-border-radius:4px;-o-border-radius:4px;border-radius:4px;}
+.tips-time li a.selected {border:1px solid #ff7e00;color:#ff7e00;}
+/* 跟团游列表－－end */
+
+/* 跟团游详情－－begin */
+.mg-hd-pname{margin-bottom:1rem;padding:1rem;background:#fff;}
+.mg-hd-pname h3{margin-bottom:1rem;font:normal 1.0834rem/1.2rem "Microsoft Yahei";color:#454545;}
+.mg-hd-pname-l{float:left;width:35%;font-size:1rem;color:#ff7e00;}
+.mg-hd-pname-l em{font-size:1.5rem;line-height:3rem;font-style:normal;}
+.mg-hd-pname-l sub{font-size:1em;line-height:3rem;}
+.mg-hd-pname-r{float:left;width:65%;color:#999;}
+.mg-hd-pname-r p{line-height:1.5rem;}
+.mg-calendar{margin-bottom:1rem;padding:.5rem;background:#fff;}
+.mg-calendar p{margin-left:2rem;line-height:1.8rem;}
+.mg-calendar p span{margin:.5rem .5rem 0 0;}
+.mg-calendar p.calendar-text{height:2rem;line-height:2rem;overflow:hidden;color:#999;text-overflow:ellipsis;white-space: nowrap;}
+.mg-details{overflow:hidden;background:#fff;}
+.mg-details ul{overflow:hidden;line-height:3rem;}
+.mg-details ul li{float:left;padding:0!important;text-align:center;}
+.mg-details ul li span{display:inline-block;width:100%;line-height:1.5rem;border-right:1px solid #999;}
+.mg-details ul li:last-child span{border-right:none;}
+.mg-details ul li.selected{border-bottom:1px solid #ff7e00;}
+.mg-details > div{display:none;min-height:100px;padding:1rem;background:#fff;}
+.mg-details > div *{line-height:1.6rem;}
+.mg-details > div img{margin:0.3rem 0;}
+.mg-details div.selectedShow{display:block;}
+/* 跟团游详情－－end */
+
+/* 其它页头信息－－begin */
+.mg-pageheader{margin-top:1rem;padding:0.8rem 0.8333rem;background:#fff;}
+.mg-pageheader h2{font-size:1.1667rem;font-weight:normal;color:#444;}
+.mg-pageheader-price{display:block;font-size:0.8333rem;color:#ff7e00;color:#999;}
+.mg-pageheader-price sub{color:#ff7e00;font-size:1rem;}
+.mg-pageheader-price em{font-size:2.0833rem;font-style:normal;color:#ff7e00;}
+.mg-pageheader-price del{color:#999;}
+.mg-pageheader-explain span{display:block;color:#999;line-height:1.5rem;}
+.mg-pageheader-diff{height:2.9167rem;padding:0 0.8333rem;margin-top:1rem;background-color:#fff;line-height:2.9167rem;}
+.mg-pageheader-diff span{color:#999;}
+.mg-pageheader-diff strong{color:#010101;font-size:1.1667rem;}
+/* 其它页头信息－－end */
+
+/* 团期页－－begin */
+.mg-date{padding-bottom:4.5rem;}
+.mg-date-tit{height:3.25rem;line-height:3.25rem;text-align:center;font-size:1.0833rem;}
+.mg-date-tit a{margin:0.7rem 1rem 0;}
+.mg-date-table{padding:0.5rem 0;background:#fff;}
+.mg-date-table dt{float:left;width:14.2%;font-size:1.25rem;text-align:center;line-height:3rem;color:#999;}
+.mg-date-table dd{float:left;width:14.2%;height:3rem;margin:0.2rem 0;font-size:1.25rem;text-align:center;line-height:3rem;color:#ccc;}
+.mg-date-table dd span{width:3rem;height:100%;margin:0 auto;display:block;border-radius:50%;color:#444;}
+.mg-date-table dd.mg-sel span{width:3rem;height:100%;margin:0 auto;display:block;border:1px solid #fff;border-radius:50%;color:#444;line-height:2.2rem}
+.mg-date-table dd.mg-sel strong{display:block;margin-top:-0.6rem;color:#ff7e00;font-size:0.9167rem;font-weight:normal;line-height:1rem;-moz-transform:scale(0.7);-webkit-transform:scale(0.7);-o-transform:scale(0.7);}
+.mg-date-table dd.mg-sel span.mg-click{border:1px solid #ff840c;}
+.mg-date-price{background:#fff;margin-top:1rem;}
+.mg-date-price dt{height:2.7083rem;padding:0 1rem;border-bottom:1px solid #ddd;font-size:1.0833rem;line-height:2.7083rem;color:#999;}
+.mg-date-price dd{height:4rem;padding:0 1rem;border-bottom:1px solid #ccc;line-height:4rem;font-size:1.0833rem;color:#444;}
+.mg-date-difference{color:#ff7467;}
+.mg-date-difference em{margin-bottom:0.3rem;}
+.mg-date-count{width:7.5rem;height:2.1667rem;margin:0.9rem 0 0 1rem;border-top:1px solid #a6a6a6;border-bottom:1px solid #a6a6a6;border-radius:0.2rem;position:relative;overflow:hidden;text-align:center;line-height:2.1667rem;}
+.mg-date-count strong{font-size:1.25rem;font-weight:normal;}
+.mg-date-count a{display:inline-block;width:2.1667rem;height:2.1667rem;border-right:1px solid #a6a6a6;border-left:1px solid #a6a6a6;background-color:#efefef;position:absolute;top:0;line-height:2rem;text-align:center;}
+.mg-date-count a:nth-child(1){left:0;}
+.mg-date-count a:nth-child(3){right:0;}
+.mg-date-price .ml12{margin-left:0.5rem;}
+/* 团期页－－end */
+
+/* 购买－－begin */
+.mg-buy-bottom{width:100%;height:4.5rem;background-color:#7a7a7a;position:fixed;z-index:120;left:0;bottom:0;line-height:4.5rem;text-align:center;}
+.mg-tal .mg-buy-bottom-l{padding-left:1rem;text-align:left;}
+.mg-buy-bottom *{color:#fff;vertical-align:middle;}
+.mg-buy-bottom strong{font-size:1.75rem;font-weight:normal;}
+.mg-buy-bottom span,.mg-buy-bottom a{padding:0 0.2rem;font-size:1.1667rem;}
+.mg-buy-bottom-l sub{font-size:0.9167rem;}
+.mg-buy-bottom-r{background-color:#ff7467;font-size:1.0833rem;color:#fff;}
+.mg-detail-btn{display:inline-block;margin:0.2rem 0 0 0.5rem;font-size:1.1667rem;color:#fff;text-decoration:underline;}
+.mg-buy-bottom .mg-ico-tel{margin-right:1rem;}
+/* 购买－－end */
+
+/* 预定表单－－begin */
+.mg-reserve{margin-top:1rem;background-color:#fff;}
+.mg-form1{font-size:1.0833rem;}
+.mg-form1 dd,.mg-form1 dt{height:2.625rem;padding:0 0.8333rem;line-height:2.625rem;}
+.mg-form1 dt{color:#999;}
+.mg-form1 dd{padding-left:5.2083rem;border-top:1px solid #efefef;}
+.mg-form1 dd input{display:inline-block;width:100%;height:2.5rem;border:none;height:2.5rem;vertical-align:top;}
+.mg-form1 dd label{display:inline-block;width:3.75rem;height:2.5rem;margin-left:-3.75rem;height:2.5rem;vertical-align:top;}
+.mg-notice{display:block;width:100%;height:2.4rem;position:fixed;bottom:4.5rem;line-height:2.4rem;text-align:center;}
+.mg-notice a{display:inline-block;text-decoration:underline;margin-left:0.5rem;}
+/* 预定表单－－end */
+
+/* 费用明细－－begin */
+.mg-detail-msg{width:100%;padding-bottom:1rem;background:#fff;position:fixed;z-index:110;bottom:4.5rem;left:0;}
+.mg-detail-msg h2{height:2.625rem;padding:0 0.8333rem;background-color:#efefef;line-height:2.625rem;font-weight:normal;font-size:1.3333rem;}
+.mg-detail-msg h3,.mg-detail-msg li,.mg-detail-msg p{padding:0 0.8333rem;height:2rem;line-height:2rem;}
+.mg-detail-msg h3{margin-top:0.8rem;font-size:1.0833rem;}
+.mg-detail-msg li strong,.mg-detail-msg li span{display:inline-block;line-height:2rem;}
+.mg-detail-msg li strong{width:40%;}
+.mg-detail-msg li span{width:30%;color:#ff7e00;}
+.mg-detail-msg p{color:#999;}
+.mg-detail-fadeInDown{-webkit-animation:fadeInDetailDown 0.3s 0.1s ease both;-moz-animation:fadeInDetailDown 0.3s 0.1s ease both;}
+@-webkit-keyframes fadeInDetailDown{
+	0%{opacity:0;bottom:-40rem;}
+	100%{opacity:1;bottom:4.5rem;}
+}
+@-moz-keyframes fadeInDetailDown{
+	0%{opacity:0;bottom:-40rem;}
+	100%{opacity:1;bottom:4.5rem;}
+}
+/* 费用明细－－end */
+
+/* 暂无内容－－begin */
+.mg-prompt-warp{position:fixed;left:0;width:100%;height:100%;background-color:#fff;}
+.mg-prompt-box{width:100%;height:18rem;position:absolute;top:50%;left:0;margin-top:-11rem;}
+.mg-prompt-box h3{font-size:1.5833rem;color:#444;line-height:3rem;text-align:center;}
+.mg-prompt-box h4{font-size:1.3333rem;color:#999;text-align:center;font-weight:normal;}
+.mg-prompt-ico{display:block;width:9.1667rem;height:10.25rem;margin:0 auto 1rem;background:url(../i/icon-failed-big.png) 0 0/9.1667rem 10.25rem;}
+/* 暂无内容－－end */
+
+/* 预约订单结果－－begin */
+.mg-result-t{margin-top:1rem;padding:1rem 0;background-color:#fff;text-align:center;}
+.mg-result-ico{display:block;width:2.75rem;margin:2rem auto 1rem;}
+.mg-result-t h4{font-size:1.2rem;line-height:2rem;}
+.mg-result-t p{font-size:1rem;color:#444;line-height:2rem;}
+.mg-result-btn{display:block;width:6rem;height:2rem;margin:0.5rem auto;border-radius:0.2rem;background-color:#ff7e00;color:#fff;line-height:2rem;}
+.mg-result-tel{font-size:1.1rem;text-decoration:underline;line-height:2rem;color:#f39802;}
+.mg-result-b{margin-top:1rem;padding:1rem 0.8333rem;background-color:#fff;}
+.mg-result-b dt{font-size:1.2rem;padding-bottom:1rem;line-height:1.4rem;}
+.mg-result-b dd{width:100%;padding:0.2rem 0;line-height:1.4rem;}
+.mg-result-b dd strong{float:left;margin-right:1rem;font-weight:normal;line-height:1.4rem;}
+/* 预约订单结果－－end */

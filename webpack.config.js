@@ -6,11 +6,11 @@ var ETP = require('extract-text-webpack-plugin');
 var ROOT_PATH = path.resolve(__dirname);
 var APP_PATH = path.resolve(ROOT_PATH,'lib');
 var APP_IN = path.resolve(APP_PATH,'app.js');
-var CSS_PATH = path.resolve(ROOT_PATH,'css/css.css');
+// var CSS_PATH = path.resolve(ROOT_PATH,'css');
 var BUILD_PATH = path.resolve(ROOT_PATH,'build');
 
 
-var ETPCSS = new ETP('[name].css?v=[chunkhash:8]');
+// var ETPCSS = new ETP('[name].css?v=[chunkhash:8]');
 // var ETPSASS = new ETP('stylesheets/scss.[chunkhash:8].css');
 // var ETPLESS = new ETP('stylesheets/less.[chunkhash:8].css');
 
@@ -19,7 +19,7 @@ var commonsPlugins = new webpack.optimize.CommonsChunkPlugin('module.js?v=[hash:
 module.exports = {
 	entry: {
 		app: [APP_IN],
-		css: [CSS_PATH]
+		// css: [CSS_PATH]
 	},
 	output: {
 		path: BUILD_PATH,
@@ -54,12 +54,12 @@ module.exports = {
 		// 	}
 		// ],
 		loaders: [
-			{
-				test: /\.css$/,
-				loader: ETPCSS.extract('style','css'),
-				exclude: /node_modules/,
-				include: CSS_PATH
-			},
+			// {
+			// 	test: /\.css$/,
+			// 	loader: ETPCSS.extract('style','css'),
+			// 	exclude: /node_modules/,
+			// 	include: CSS_PATH
+			// },
 			// {
 			// 	test: /\.scss$/,
 			// 	loader: ETPSASS.extract("style", "css!sass"),
@@ -72,11 +72,11 @@ module.exports = {
 			// 	exclude: /node_modules/,
 			// 	include: APP_PATH
 			// },
-			{
-				test: /\.(png|jpg)$/,
-				loader: 'url?limit=40000',
-				include: APP_PATH
-			},
+			// {
+			// 	test: /\.(png|jpg)$/,
+			// 	loader: 'url?limit=40000',
+			// 	include: APP_PATH
+			// },
 			// {
 			// 	test: /\.(jsx|js)$/,
 			// 	loader: 'babel',
@@ -126,6 +126,6 @@ module.exports = {
 		// new webpack.NoErrorsPlugin(),
 		// ETPSASS,
 		// ETPLESS,
-		ETPCSS
+		// ETPCSS
 	]
 };

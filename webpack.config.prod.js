@@ -1,11 +1,12 @@
 var path = require('path');
 var webpack = require('webpack');
+var HWP = require('html-webpack-plugin');
 var ETP = require('extract-text-webpack-plugin');
 
 var ROOT_PATH = path.resolve(__dirname);
 var APP_PATH = path.resolve(ROOT_PATH, 'lib');
 var APP_IN = path.resolve(APP_PATH, 'app.js');
-var CSS_PATH = path.resolve(ROOT_PATH, 'css/my.css');
+var CSS_PATH = path.resolve(ROOT_PATH, 'css');
 var BUILD_PATH = path.resolve(ROOT_PATH, 'build');
 
 var ETPCSS = new ETP('[name].css?v=[chunkhash:8]');
@@ -13,7 +14,6 @@ var ETPCSS = new ETP('[name].css?v=[chunkhash:8]');
 module.exports = {
     entry: {
         app: [APP_IN],
-        css: [CSS_PATH],
         module: [
             'react',
             'react-dom',
@@ -41,7 +41,7 @@ module.exports = {
     module: {
         loaders: [{
             test: /\.css$/,
-            loader: ETPCSS.extract('style', 'css'),
+            loader: ETP.extract("style", "css"),
             exclude: /node_modules/,
             include: CSS_PATH
         }, {
@@ -49,9 +49,18 @@ module.exports = {
             loader: 'babel',
             exclude: /node_modules/,
             include: path.join(__dirname, 'lib')
+        },{
+            test: /\.(png|jpg|gif)$/,
+            loader: 'url-loader?limit=8192'
         }]
     },
     plugins: [
+        new HWP({
+            inject:true,
+            title: '芒果网 - m.mangocity.com',
+            template: 'buildTemplate/index.html',
+            favicon: 'i/favicon.ico'
+        }),
         new webpack.optimize.CommonsChunkPlugin('module', 'module.min.js?v=[chunkhash:8]'),
         new webpack.DefinePlugin({
             'process.env.NODE_ENV': '"production"'
